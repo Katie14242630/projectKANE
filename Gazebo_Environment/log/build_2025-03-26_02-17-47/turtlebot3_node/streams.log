@@ -1,0 +1,86 @@
+[0.074s] Invoking command in '/home/ubuntu/Desktop/RS2/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/ubuntu/Desktop/RS2/install/turtlebot3_msgs:/home/ubuntu/Desktop/RS2/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/Desktop/RS2/install/turtlebot3_msgs:/home/ubuntu/Desktop/RS2/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/Desktop/RS2/install/turtlebot3_msgs/lib:/home/ubuntu/Desktop/RS2/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/Desktop/RS2/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/Desktop/RS2/turtlebot3/turtlebot3_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/RS2/install/turtlebot3_node
+[0.264s] -- The C compiler identification is GNU 11.4.0
+[0.393s] -- The CXX compiler identification is GNU 11.4.0
+[0.406s] -- Detecting C compiler ABI info
+[0.606s] -- Detecting C compiler ABI info - done
+[0.613s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.618s] -- Detecting C compile features
+[0.629s] -- Detecting C compile features - done
+[0.639s] -- Detecting CXX compiler ABI info
+[0.902s] -- Detecting CXX compiler ABI info - done
+[0.917s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.920s] -- Detecting CXX compile features
+[0.921s] -- Detecting CXX compile features - done
+[0.931s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.113s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.174s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.218s] -- Found dynamixel_sdk: 3.7.60 (/home/ubuntu/Desktop/RS2/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[1.229s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.280s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.288s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.297s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.312s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.336s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.386s] -- Found message_filters: 4.3.5 (/opt/ros/humble/share/message_filters/cmake)
+[1.502s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.505s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.710s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.773s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.863s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.883s] -- Looking for pthread.h
+[2.190s] -- Looking for pthread.h - found
+[2.190s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.378s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.379s] -- Found Threads: TRUE  
+[2.464s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.505s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.548s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[2.575s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[2.605s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.794s] -- Found turtlebot3_msgs: 2.2.3 (/home/ubuntu/Desktop/RS2/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[2.971s] -- Configuring done
+[3.009s] -- Generating done
+[3.026s] -- Build files have been written to: /home/ubuntu/Desktop/RS2/build/turtlebot3_node
+[3.038s] Invoked command in '/home/ubuntu/Desktop/RS2/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/Desktop/RS2/install/turtlebot3_msgs:/home/ubuntu/Desktop/RS2/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/Desktop/RS2/install/turtlebot3_msgs:/home/ubuntu/Desktop/RS2/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/Desktop/RS2/install/turtlebot3_msgs/lib:/home/ubuntu/Desktop/RS2/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/Desktop/RS2/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/Desktop/RS2/turtlebot3/turtlebot3_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/RS2/install/turtlebot3_node
+[3.044s] Invoking command in '/home/ubuntu/Desktop/RS2/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/ubuntu/Desktop/RS2/install/turtlebot3_msgs:/home/ubuntu/Desktop/RS2/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/Desktop/RS2/install/turtlebot3_msgs:/home/ubuntu/Desktop/RS2/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/Desktop/RS2/install/turtlebot3_msgs/lib:/home/ubuntu/Desktop/RS2/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/Desktop/RS2/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/Desktop/RS2/build/turtlebot3_node -- -j2 -l2
+[3.195s] [  7%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[3.204s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[10.777s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[15.581s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[19.218s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[19.857s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[34.931s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[47.221s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[51.079s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[55.213s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[59.386s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[63.315s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[63.852s] [ 85%] Built target turtlebot3_node_lib
+[63.875s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[67.348s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[69.377s] [100%] Built target turtlebot3_ros
+[69.385s] Invoked command in '/home/ubuntu/Desktop/RS2/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/Desktop/RS2/install/turtlebot3_msgs:/home/ubuntu/Desktop/RS2/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/Desktop/RS2/install/turtlebot3_msgs:/home/ubuntu/Desktop/RS2/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/Desktop/RS2/install/turtlebot3_msgs/lib:/home/ubuntu/Desktop/RS2/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/Desktop/RS2/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/Desktop/RS2/build/turtlebot3_node -- -j2 -l2
+[69.386s] Invoking command in '/home/ubuntu/Desktop/RS2/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/ubuntu/Desktop/RS2/install/turtlebot3_msgs:/home/ubuntu/Desktop/RS2/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/Desktop/RS2/install/turtlebot3_msgs:/home/ubuntu/Desktop/RS2/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/Desktop/RS2/install/turtlebot3_msgs/lib:/home/ubuntu/Desktop/RS2/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/Desktop/RS2/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/Desktop/RS2/build/turtlebot3_node
+[69.391s] -- Install configuration: ""
+[69.392s] -- Execute custom install script
+[69.392s] -- Symlinking: /home/ubuntu/Desktop/RS2/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[69.400s] -- Symlinking: /home/ubuntu/Desktop/RS2/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[69.408s] -- Symlinking: /home/ubuntu/Desktop/RS2/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[69.416s] -- Symlinking: /home/ubuntu/Desktop/RS2/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[69.422s] -- Symlinking: /home/ubuntu/Desktop/RS2/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[69.427s] -- Symlinking: /home/ubuntu/Desktop/RS2/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[69.432s] -- Symlinking: /home/ubuntu/Desktop/RS2/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[69.438s] -- Symlinking: /home/ubuntu/Desktop/RS2/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[69.443s] -- Symlinking: /home/ubuntu/Desktop/RS2/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[69.448s] -- Symlinking: /home/ubuntu/Desktop/RS2/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[69.452s] -- Symlinking: /home/ubuntu/Desktop/RS2/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[69.458s] -- Symlinking: /home/ubuntu/Desktop/RS2/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[69.463s] -- Symlinking: /home/ubuntu/Desktop/RS2/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[69.468s] -- Symlinking: /home/ubuntu/Desktop/RS2/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[69.476s] -- Symlinking: /home/ubuntu/Desktop/RS2/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[69.481s] -- Symlinking: /home/ubuntu/Desktop/RS2/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[69.491s] -- Symlinking: /home/ubuntu/Desktop/RS2/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[69.492s] -- Symlinking: /home/ubuntu/Desktop/RS2/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[69.521s] -- Symlinking: /home/ubuntu/Desktop/RS2/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[69.522s] -- Symlinking: /home/ubuntu/Desktop/RS2/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[69.522s] Invoked command in '/home/ubuntu/Desktop/RS2/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/Desktop/RS2/install/turtlebot3_msgs:/home/ubuntu/Desktop/RS2/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/Desktop/RS2/install/turtlebot3_msgs:/home/ubuntu/Desktop/RS2/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/Desktop/RS2/install/turtlebot3_msgs/lib:/home/ubuntu/Desktop/RS2/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/Desktop/RS2/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/Desktop/RS2/build/turtlebot3_node

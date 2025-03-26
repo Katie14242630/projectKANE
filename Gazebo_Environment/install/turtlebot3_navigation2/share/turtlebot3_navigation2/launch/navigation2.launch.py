@@ -1,0 +1,1 @@
+/home/ubuntu/Desktop/RS2/turtlebot3/turtlebot3_navigation2/launch/navigation2.launch.py

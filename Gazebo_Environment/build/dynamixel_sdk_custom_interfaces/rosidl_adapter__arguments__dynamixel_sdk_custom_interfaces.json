@@ -1,0 +1,7 @@
+{
+  "package_name": "dynamixel_sdk_custom_interfaces",
+  "non_idl_tuples": [
+    "/home/ubuntu/Desktop/RS2/DynamixelSDK/dynamixel_sdk_custom_interfaces:msg/SetPosition.msg",
+    "/home/ubuntu/Desktop/RS2/DynamixelSDK/dynamixel_sdk_custom_interfaces:srv/GetPosition.srv"
+  ]
+}

@@ -1,0 +1,24 @@
+[1.294s] Invoking command in '/home/ubuntu/Desktop/RS2/build/turtlebot3_teleop': PYTHONPATH=/home/ubuntu/Desktop/RS2/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/Desktop/RS2/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/Desktop/RS2/build/turtlebot3_teleop/build --no-deps symlink_data
+[1.551s] running develop
+[1.695s] running egg_info
+[1.695s] creating turtlebot3_teleop.egg-info
+[1.696s] writing turtlebot3_teleop.egg-info/PKG-INFO
+[1.696s] writing dependency_links to turtlebot3_teleop.egg-info/dependency_links.txt
+[1.696s] writing entry points to turtlebot3_teleop.egg-info/entry_points.txt
+[1.696s] writing requirements to turtlebot3_teleop.egg-info/requires.txt
+[1.696s] writing top-level names to turtlebot3_teleop.egg-info/top_level.txt
+[1.696s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.698s] reading manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.698s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.699s] running build_ext
+[1.700s] Creating /home/ubuntu/Desktop/RS2/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3-teleop.egg-link (link to .)
+[1.701s] Installing teleop_keyboard script to /home/ubuntu/Desktop/RS2/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[1.701s] 
+[1.701s] Installed /home/ubuntu/Desktop/RS2/build/turtlebot3_teleop
+[1.701s] running symlink_data
+[1.701s] creating /home/ubuntu/Desktop/RS2/install/turtlebot3_teleop/share/ament_index
+[1.701s] creating /home/ubuntu/Desktop/RS2/install/turtlebot3_teleop/share/ament_index/resource_index
+[1.701s] creating /home/ubuntu/Desktop/RS2/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[1.702s] symbolically linking /home/ubuntu/Desktop/RS2/build/turtlebot3_teleop/resource/turtlebot3_teleop -> /home/ubuntu/Desktop/RS2/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[1.702s] symbolically linking /home/ubuntu/Desktop/RS2/build/turtlebot3_teleop/package.xml -> /home/ubuntu/Desktop/RS2/install/turtlebot3_teleop/share/turtlebot3_teleop
+[1.727s] Invoked command in '/home/ubuntu/Desktop/RS2/build/turtlebot3_teleop' returned '0': PYTHONPATH=/home/ubuntu/Desktop/RS2/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/Desktop/RS2/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/Desktop/RS2/build/turtlebot3_teleop/build --no-deps symlink_data

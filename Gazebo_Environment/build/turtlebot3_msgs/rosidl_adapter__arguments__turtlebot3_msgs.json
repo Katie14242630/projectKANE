@@ -1,0 +1,11 @@
+{
+  "package_name": "turtlebot3_msgs",
+  "non_idl_tuples": [
+    "/home/ubuntu/Desktop/RS2/turtlebot3_msgs:msg/SensorState.msg",
+    "/home/ubuntu/Desktop/RS2/turtlebot3_msgs:msg/Sound.msg",
+    "/home/ubuntu/Desktop/RS2/turtlebot3_msgs:msg/VersionInfo.msg",
+    "/home/ubuntu/Desktop/RS2/turtlebot3_msgs:srv/Sound.srv",
+    "/home/ubuntu/Desktop/RS2/turtlebot3_msgs:srv/Dqn.srv",
+    "/home/ubuntu/Desktop/RS2/turtlebot3_msgs:action/Patrol.action"
+  ]
+}
