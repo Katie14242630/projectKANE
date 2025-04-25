@@ -1,0 +1,28 @@
+[0.395s] Invoking command in '/home/katie/turtlebot3_ws/build/pepper_autonomy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble /usr/bin/cmake --build /home/katie/turtlebot3_ws/build/pepper_autonomy -- -j8 -l8
+[0.528s] [ 60%] Built target autonomy_node
+[0.529s] [100%] Built target object_detector
+[0.548s] Invoked command in '/home/katie/turtlebot3_ws/build/pepper_autonomy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble /usr/bin/cmake --build /home/katie/turtlebot3_ws/build/pepper_autonomy -- -j8 -l8
+[0.550s] Invoking command in '/home/katie/turtlebot3_ws/build/pepper_autonomy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble /usr/bin/cmake --install /home/katie/turtlebot3_ws/build/pepper_autonomy
+[0.564s] -- Install configuration: ""
+[0.564s] -- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/bt_xml
+[0.564s] -- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/bt_xml/tree.xml
+[0.564s] -- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/launch
+[0.564s] -- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/launch/autonomy.launch.py
+[0.565s] -- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/lib/pepper_autonomy/autonomy_node
+[0.565s] -- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/lib/pepper_autonomy/object_detector
+[0.565s] -- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/ament_index/resource_index/package_run_dependencies/pepper_autonomy
+[0.565s] -- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/ament_index/resource_index/parent_prefix_path/pepper_autonomy
+[0.565s] -- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/environment/ament_prefix_path.sh
+[0.566s] -- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/environment/ament_prefix_path.dsv
+[0.566s] -- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/environment/path.sh
+[0.566s] -- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/environment/path.dsv
+[0.566s] -- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/local_setup.bash
+[0.566s] -- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/local_setup.sh
+[0.566s] -- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/local_setup.zsh
+[0.566s] -- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/local_setup.dsv
+[0.566s] -- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/package.dsv
+[0.567s] -- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/ament_index/resource_index/packages/pepper_autonomy
+[0.567s] -- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/cmake/pepper_autonomyConfig.cmake
+[0.567s] -- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/cmake/pepper_autonomyConfig-version.cmake
+[0.567s] -- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/package.xml
+[0.570s] Invoked command in '/home/katie/turtlebot3_ws/build/pepper_autonomy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble /usr/bin/cmake --install /home/katie/turtlebot3_ws/build/pepper_autonomy

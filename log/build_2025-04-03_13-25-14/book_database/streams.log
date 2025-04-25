@@ -1,0 +1,61 @@
+[0.051s] Invoking command in '/home/katie/turtlebot3_ws/build/book_database': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble /usr/bin/cmake /home/katie/turtlebot3_ws/book_database -DCMAKE_INSTALL_PREFIX=/home/katie/turtlebot3_ws/install/book_database
+[0.958s] -- The C compiler identification is GNU 11.4.0
+[0.959s] -- The CXX compiler identification is GNU 11.4.0
+[0.959s] -- Detecting C compiler ABI info
+[0.959s] -- Detecting C compiler ABI info - done
+[0.960s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.960s] -- Detecting C compile features
+[0.960s] -- Detecting C compile features - done
+[0.960s] -- Detecting CXX compiler ABI info
+[1.138s] -- Detecting CXX compiler ABI info - done
+[1.163s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.164s] -- Detecting CXX compile features
+[1.165s] -- Detecting CXX compile features - done
+[1.178s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.662s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.995s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[2.193s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.214s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.243s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.291s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.356s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.538s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.553s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.872s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.976s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.115s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.160s] -- Looking for pthread.h
+[3.349s] -- Looking for pthread.h - found
+[3.351s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.528s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.531s] -- Found Threads: TRUE  
+[3.695s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.907s] -- Configuring done
+[3.934s] -- Generating done
+[3.943s] -- Build files have been written to: /home/katie/turtlebot3_ws/build/book_database
+[3.969s] Invoked command in '/home/katie/turtlebot3_ws/build/book_database' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble /usr/bin/cmake /home/katie/turtlebot3_ws/book_database -DCMAKE_INSTALL_PREFIX=/home/katie/turtlebot3_ws/install/book_database
+[3.971s] Invoking command in '/home/katie/turtlebot3_ws/build/book_database': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble /usr/bin/cmake --build /home/katie/turtlebot3_ws/build/book_database -- -j8 -l8
+[4.081s] [ 50%] [32mBuilding CXX object CMakeFiles/book_database.dir/src/book_database.cpp.o[0m
+[14.348s] [100%] [32m[1mLinking CXX executable book_database[0m
+[14.958s] [100%] Built target book_database
+[14.983s] Invoked command in '/home/katie/turtlebot3_ws/build/book_database' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble /usr/bin/cmake --build /home/katie/turtlebot3_ws/build/book_database -- -j8 -l8
+[14.988s] Invoking command in '/home/katie/turtlebot3_ws/build/book_database': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble /usr/bin/cmake --install /home/katie/turtlebot3_ws/build/book_database
+[15.005s] -- Install configuration: ""
+[15.006s] -- Installing: /home/katie/turtlebot3_ws/install/book_database/lib/book_database/book_database
+[15.010s] -- Set runtime path of "/home/katie/turtlebot3_ws/install/book_database/lib/book_database/book_database" to ""
+[15.011s] -- Installing: /home/katie/turtlebot3_ws/install/book_database/share/ament_index/resource_index/package_run_dependencies/book_database
+[15.011s] -- Installing: /home/katie/turtlebot3_ws/install/book_database/share/ament_index/resource_index/parent_prefix_path/book_database
+[15.012s] -- Installing: /home/katie/turtlebot3_ws/install/book_database/share/book_database/environment/ament_prefix_path.sh
+[15.014s] -- Installing: /home/katie/turtlebot3_ws/install/book_database/share/book_database/environment/ament_prefix_path.dsv
+[15.014s] -- Installing: /home/katie/turtlebot3_ws/install/book_database/share/book_database/environment/path.sh
+[15.014s] -- Installing: /home/katie/turtlebot3_ws/install/book_database/share/book_database/environment/path.dsv
+[15.015s] -- Installing: /home/katie/turtlebot3_ws/install/book_database/share/book_database/local_setup.bash
+[15.017s] -- Installing: /home/katie/turtlebot3_ws/install/book_database/share/book_database/local_setup.sh
+[15.018s] -- Installing: /home/katie/turtlebot3_ws/install/book_database/share/book_database/local_setup.zsh
+[15.019s] -- Installing: /home/katie/turtlebot3_ws/install/book_database/share/book_database/local_setup.dsv
+[15.019s] -- Installing: /home/katie/turtlebot3_ws/install/book_database/share/book_database/package.dsv
+[15.019s] -- Installing: /home/katie/turtlebot3_ws/install/book_database/share/ament_index/resource_index/packages/book_database
+[15.019s] -- Installing: /home/katie/turtlebot3_ws/install/book_database/share/book_database/cmake/book_databaseConfig.cmake
+[15.020s] -- Installing: /home/katie/turtlebot3_ws/install/book_database/share/book_database/cmake/book_databaseConfig-version.cmake
+[15.020s] -- Installing: /home/katie/turtlebot3_ws/install/book_database/share/book_database/package.xml
+[15.030s] Invoked command in '/home/katie/turtlebot3_ws/build/book_database' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble /usr/bin/cmake --install /home/katie/turtlebot3_ws/build/book_database

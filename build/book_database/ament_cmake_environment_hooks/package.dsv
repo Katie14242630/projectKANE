@@ -1,0 +1,4 @@
+source;share/book_database/local_setup.bash
+source;share/book_database/local_setup.dsv
+source;share/book_database/local_setup.sh
+source;share/book_database/local_setup.zsh

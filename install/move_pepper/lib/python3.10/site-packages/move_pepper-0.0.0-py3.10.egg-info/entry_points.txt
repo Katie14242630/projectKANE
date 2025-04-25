@@ -1,0 +1,2 @@
+[console_scripts]
+amcl_init_pose_publisher = move_pepper.set_init_amcl_pose:main

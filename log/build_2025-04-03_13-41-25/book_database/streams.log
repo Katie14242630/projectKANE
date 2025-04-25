@@ -1,0 +1,23 @@
+[0.088s] Invoking command in '/home/katie/turtlebot3_ws/build/book_database': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble /usr/bin/cmake --build /home/katie/turtlebot3_ws/build/book_database -- -j8 -l8
+[1.131s] [35m[1mConsolidate compiler generated dependencies of target book_database[0m
+[1.131s] [100%] Built target book_database
+[1.159s] Invoked command in '/home/katie/turtlebot3_ws/build/book_database' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble /usr/bin/cmake --build /home/katie/turtlebot3_ws/build/book_database -- -j8 -l8
+[1.193s] Invoking command in '/home/katie/turtlebot3_ws/build/book_database': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble /usr/bin/cmake --install /home/katie/turtlebot3_ws/build/book_database
+[1.229s] -- Install configuration: ""
+[1.231s] -- Up-to-date: /home/katie/turtlebot3_ws/install/book_database/lib/book_database/book_database
+[1.231s] -- Up-to-date: /home/katie/turtlebot3_ws/install/book_database/share/ament_index/resource_index/package_run_dependencies/book_database
+[1.232s] -- Up-to-date: /home/katie/turtlebot3_ws/install/book_database/share/ament_index/resource_index/parent_prefix_path/book_database
+[1.232s] -- Up-to-date: /home/katie/turtlebot3_ws/install/book_database/share/book_database/environment/ament_prefix_path.sh
+[1.232s] -- Up-to-date: /home/katie/turtlebot3_ws/install/book_database/share/book_database/environment/ament_prefix_path.dsv
+[1.233s] -- Up-to-date: /home/katie/turtlebot3_ws/install/book_database/share/book_database/environment/path.sh
+[1.233s] -- Up-to-date: /home/katie/turtlebot3_ws/install/book_database/share/book_database/environment/path.dsv
+[1.234s] -- Up-to-date: /home/katie/turtlebot3_ws/install/book_database/share/book_database/local_setup.bash
+[1.234s] -- Up-to-date: /home/katie/turtlebot3_ws/install/book_database/share/book_database/local_setup.sh
+[1.234s] -- Up-to-date: /home/katie/turtlebot3_ws/install/book_database/share/book_database/local_setup.zsh
+[1.234s] -- Up-to-date: /home/katie/turtlebot3_ws/install/book_database/share/book_database/local_setup.dsv
+[1.234s] -- Installing: /home/katie/turtlebot3_ws/install/book_database/share/book_database/package.dsv
+[1.235s] -- Up-to-date: /home/katie/turtlebot3_ws/install/book_database/share/ament_index/resource_index/packages/book_database
+[1.235s] -- Up-to-date: /home/katie/turtlebot3_ws/install/book_database/share/book_database/cmake/book_databaseConfig.cmake
+[1.235s] -- Up-to-date: /home/katie/turtlebot3_ws/install/book_database/share/book_database/cmake/book_databaseConfig-version.cmake
+[1.235s] -- Up-to-date: /home/katie/turtlebot3_ws/install/book_database/share/book_database/package.xml
+[1.243s] Invoked command in '/home/katie/turtlebot3_ws/build/book_database' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble /usr/bin/cmake --install /home/katie/turtlebot3_ws/build/book_database

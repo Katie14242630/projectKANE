@@ -1,0 +1,8 @@
+source;share/pepper_autonomy/hook/cmake_prefix_path.ps1
+source;share/pepper_autonomy/hook/cmake_prefix_path.dsv
+source;share/pepper_autonomy/hook/cmake_prefix_path.sh
+source;share/pepper_autonomy/local_setup.bash
+source;share/pepper_autonomy/local_setup.dsv
+source;share/pepper_autonomy/local_setup.ps1
+source;share/pepper_autonomy/local_setup.sh
+source;share/pepper_autonomy/local_setup.zsh

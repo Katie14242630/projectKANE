@@ -1,0 +1,98 @@
+[0.394s] Invoking command in '/home/katie/turtlebot3_ws/build/pepper_autonomy': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/katie/turtlebot3_ws/src/pepper_autonomy -DCMAKE_INSTALL_PREFIX=/home/katie/turtlebot3_ws/install/pepper_autonomy
+[0.588s] -- The C compiler identification is GNU 11.4.0
+[0.730s] -- The CXX compiler identification is GNU 11.4.0
+[0.748s] -- Detecting C compiler ABI info
+[0.852s] -- Detecting C compiler ABI info - done
+[0.866s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.866s] -- Detecting C compile features
+[0.867s] -- Detecting C compile features - done
+[0.872s] -- Detecting CXX compiler ABI info
+[0.983s] -- Detecting CXX compiler ABI info - done
+[0.994s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.994s] -- Detecting CXX compile features
+[0.995s] -- Detecting CXX compile features - done
+[1.002s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.265s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.424s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.501s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.510s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.523s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.547s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.571s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.636s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.640s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.761s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.797s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.851s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.866s] -- Looking for pthread.h
+[2.016s] -- Looking for pthread.h - found
+[2.017s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.139s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.140s] -- Found Threads: TRUE  
+[2.224s] -- Found rclcpp_action: 16.0.11 (/opt/ros/humble/share/rclcpp_action/cmake)
+[2.278s] -- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)
+[2.361s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[2.383s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.404s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.405s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.405s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.484s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.512s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.628s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.629s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.630s] -- Configured cppcheck include dirs: /home/katie/turtlebot3_ws/src/pepper_autonomy/include
+[2.630s] -- Configured cppcheck exclude dirs and/or files: 
+[2.631s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.631s] -- Configured cpplint exclude dirs and/or files: 
+[2.632s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.632s] -- Added test 'lint_cmake' to check CMake code style
+[2.633s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.635s] -- Added test 'uncrustify' to check C / C++ code style
+[2.635s] -- Configured uncrustify additional arguments: 
+[2.635s] -- Added test 'xmllint' to check XML markup files
+[2.637s] -- Configuring done
+[2.659s] -- Generating done
+[2.667s] -- Build files have been written to: /home/katie/turtlebot3_ws/build/pepper_autonomy
+[2.680s] Invoked command in '/home/katie/turtlebot3_ws/build/pepper_autonomy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/katie/turtlebot3_ws/src/pepper_autonomy -DCMAKE_INSTALL_PREFIX=/home/katie/turtlebot3_ws/install/pepper_autonomy
+[2.685s] Invoking command in '/home/katie/turtlebot3_ws/build/pepper_autonomy': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/katie/turtlebot3_ws/build/pepper_autonomy -- -j8 -l8
+[2.774s] [ 20%] [32mBuilding CXX object CMakeFiles/autonomy_node.dir/src/autonomy_node.cpp.o[0m
+[2.775s] [ 40%] [32mBuilding CXX object CMakeFiles/autonomy_node.dir/src/navigation_behaviors.cpp.o[0m
+[2.790s] [ 60%] [32mBuilding CXX object CMakeFiles/object_detector.dir/src/object_detector.cpp.o[0m
+[6.520s] [01m[K/home/katie/turtlebot3_ws/src/pepper_autonomy/src/object_detector.cpp:[m[K In member function ‘[01m[Kvoid ObjectDetector::laser_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[6.522s] [01m[K/home/katie/turtlebot3_ws/src/pepper_autonomy/src/object_detector.cpp:20:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmin_range[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.522s]    20 |         float [01;35m[Kmin_range[m[K = msg->range_min;
+[6.522s]       |               [01;35m[K^~~~~~~~~[m[K
+[6.522s] [01m[K/home/katie/turtlebot3_ws/src/pepper_autonomy/src/object_detector.cpp:21:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmax_range[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.522s]    21 |         float [01;35m[Kmax_range[m[K = msg->range_max;
+[6.522s]       |               [01;35m[K^~~~~~~~~[m[K
+[13.977s] [ 80%] [32m[1mLinking CXX executable object_detector[0m
+[14.948s] [ 80%] Built target object_detector
+[16.288s] [100%] [32m[1mLinking CXX executable autonomy_node[0m
+[17.281s] [100%] Built target autonomy_node
+[17.364s] Invoked command in '/home/katie/turtlebot3_ws/build/pepper_autonomy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/katie/turtlebot3_ws/build/pepper_autonomy -- -j8 -l8
+[17.431s] Invoking command in '/home/katie/turtlebot3_ws/build/pepper_autonomy': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/katie/turtlebot3_ws/build/pepper_autonomy
+[17.444s] -- Install configuration: ""
+[17.444s] -- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/bt_xml
+[17.445s] -- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/bt_xml/tree.xml
+[17.445s] -- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/launch
+[17.445s] -- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/launch/autonomy.launch.py
+[17.445s] -- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/lib/pepper_autonomy/autonomy_node
+[17.453s] -- Set runtime path of "/home/katie/turtlebot3_ws/install/pepper_autonomy/lib/pepper_autonomy/autonomy_node" to ""
+[17.453s] -- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/lib/pepper_autonomy/object_detector
+[17.459s] -- Set runtime path of "/home/katie/turtlebot3_ws/install/pepper_autonomy/lib/pepper_autonomy/object_detector" to ""
+[17.459s] -- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/ament_index/resource_index/package_run_dependencies/pepper_autonomy
+[17.459s] -- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/ament_index/resource_index/parent_prefix_path/pepper_autonomy
+[17.460s] -- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/environment/ament_prefix_path.sh
+[17.460s] -- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/environment/ament_prefix_path.dsv
+[17.460s] -- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/environment/path.sh
+[17.461s] -- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/environment/path.dsv
+[17.461s] -- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/local_setup.bash
+[17.461s] -- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/local_setup.sh
+[17.462s] -- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/local_setup.zsh
+[17.462s] -- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/local_setup.dsv
+[17.462s] -- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/package.dsv
+[17.463s] -- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/ament_index/resource_index/packages/pepper_autonomy
+[17.463s] -- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/cmake/pepper_autonomyConfig.cmake
+[17.463s] -- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/cmake/pepper_autonomyConfig-version.cmake
+[17.464s] -- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/package.xml
+[17.474s] Invoked command in '/home/katie/turtlebot3_ws/build/pepper_autonomy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/katie/turtlebot3_ws/build/pepper_autonomy

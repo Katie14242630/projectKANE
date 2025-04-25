@@ -1,0 +1,33 @@
+[1.744s] Invoking command in '/home/katie/turtlebot3_ws/src/move_pepper': PYTHONPATH=/home/katie/turtlebot3_ws/build/move_pepper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/katie/turtlebot3_ws/install/move_pepper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/move_pepper build --build-base /home/katie/turtlebot3_ws/build/move_pepper/build install --record /home/katie/turtlebot3_ws/build/move_pepper/install.log --single-version-externally-managed install_data
+[2.212s] running egg_info
+[2.246s] writing ../../build/move_pepper/move_pepper.egg-info/PKG-INFO
+[2.247s] writing dependency_links to ../../build/move_pepper/move_pepper.egg-info/dependency_links.txt
+[2.247s] writing entry points to ../../build/move_pepper/move_pepper.egg-info/entry_points.txt
+[2.248s] writing requirements to ../../build/move_pepper/move_pepper.egg-info/requires.txt
+[2.248s] writing top-level names to ../../build/move_pepper/move_pepper.egg-info/top_level.txt
+[2.318s] reading manifest file '../../build/move_pepper/move_pepper.egg-info/SOURCES.txt'
+[2.320s] writing manifest file '../../build/move_pepper/move_pepper.egg-info/SOURCES.txt'
+[2.321s] running build
+[2.321s] running build_py
+[2.321s] copying move_pepper/__init__.py -> /home/katie/turtlebot3_ws/build/move_pepper/build/lib/move_pepper
+[2.322s] copying move_pepper/set_init_amcl_pose.py -> /home/katie/turtlebot3_ws/build/move_pepper/build/lib/move_pepper
+[2.322s] running install
+[2.329s] running install_lib
+[2.365s] running install_data
+[2.365s] copying resource/move_pepper -> /home/katie/turtlebot3_ws/install/move_pepper/share/ament_index/resource_index/packages
+[2.365s] copying package.xml -> /home/katie/turtlebot3_ws/install/move_pepper/share/move_pepper
+[2.366s] copying launch/library4.launch.py -> /home/katie/turtlebot3_ws/install/move_pepper/share/move_pepper
+[2.366s] copying launch/nav2.launch.py -> /home/katie/turtlebot3_ws/install/move_pepper/share/move_pepper
+[2.367s] copying maps/map.yaml -> /home/katie/turtlebot3_ws/install/move_pepper/share/move_pepper/maps
+[2.367s] copying maps/lab_map.pgm -> /home/katie/turtlebot3_ws/install/move_pepper/share/move_pepper/maps
+[2.368s] copying maps/lab_map.yaml -> /home/katie/turtlebot3_ws/install/move_pepper/share/move_pepper/maps
+[2.368s] copying maps/map.pgm -> /home/katie/turtlebot3_ws/install/move_pepper/share/move_pepper/maps
+[2.369s] copying maps/OLDmap.pgm -> /home/katie/turtlebot3_ws/install/move_pepper/share/move_pepper/maps
+[2.370s] copying maps/OLDmap.yaml -> /home/katie/turtlebot3_ws/install/move_pepper/share/move_pepper/maps
+[2.371s] running install_egg_info
+[2.408s] removing '/home/katie/turtlebot3_ws/install/move_pepper/lib/python3.10/site-packages/move_pepper-0.0.0-py3.10.egg-info' (and everything under it)
+[2.410s] Copying ../../build/move_pepper/move_pepper.egg-info to /home/katie/turtlebot3_ws/install/move_pepper/lib/python3.10/site-packages/move_pepper-0.0.0-py3.10.egg-info
+[2.411s] running install_scripts
+[2.688s] Installing amcl_init_pose_publisher script to /home/katie/turtlebot3_ws/install/move_pepper/lib/move_pepper
+[2.691s] writing list of installed files to '/home/katie/turtlebot3_ws/build/move_pepper/install.log'
+[2.762s] Invoked command in '/home/katie/turtlebot3_ws/src/move_pepper' returned '0': PYTHONPATH=/home/katie/turtlebot3_ws/build/move_pepper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/katie/turtlebot3_ws/install/move_pepper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/move_pepper build --build-base /home/katie/turtlebot3_ws/build/move_pepper/build install --record /home/katie/turtlebot3_ws/build/move_pepper/install.log --single-version-externally-managed install_data

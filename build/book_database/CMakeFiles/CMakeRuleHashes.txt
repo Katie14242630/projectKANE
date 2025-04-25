@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+52dfb18dddecce99d7cfe2ebe0480431 CMakeFiles/book_database_uninstall

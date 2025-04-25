@@ -1,0 +1,22 @@
+[0.063s] Invoking command in '/home/katie/turtlebot3_ws/build/gallery_database': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/katie/turtlebot3_ws/build/gallery_database -- -j8 -l8
+[0.480s] [100%] Built target gallery_database
+[0.511s] Invoked command in '/home/katie/turtlebot3_ws/build/gallery_database' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/katie/turtlebot3_ws/build/gallery_database -- -j8 -l8
+[0.512s] Invoking command in '/home/katie/turtlebot3_ws/build/gallery_database': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/katie/turtlebot3_ws/build/gallery_database
+[0.557s] -- Install configuration: ""
+[0.557s] -- Up-to-date: /home/katie/turtlebot3_ws/install/gallery_database/lib/gallery_database/gallery_database
+[0.558s] -- Up-to-date: /home/katie/turtlebot3_ws/install/gallery_database/share/ament_index/resource_index/package_run_dependencies/gallery_database
+[0.558s] -- Up-to-date: /home/katie/turtlebot3_ws/install/gallery_database/share/ament_index/resource_index/parent_prefix_path/gallery_database
+[0.558s] -- Up-to-date: /home/katie/turtlebot3_ws/install/gallery_database/share/gallery_database/environment/ament_prefix_path.sh
+[0.558s] -- Up-to-date: /home/katie/turtlebot3_ws/install/gallery_database/share/gallery_database/environment/ament_prefix_path.dsv
+[0.558s] -- Up-to-date: /home/katie/turtlebot3_ws/install/gallery_database/share/gallery_database/environment/path.sh
+[0.558s] -- Up-to-date: /home/katie/turtlebot3_ws/install/gallery_database/share/gallery_database/environment/path.dsv
+[0.559s] -- Up-to-date: /home/katie/turtlebot3_ws/install/gallery_database/share/gallery_database/local_setup.bash
+[0.559s] -- Up-to-date: /home/katie/turtlebot3_ws/install/gallery_database/share/gallery_database/local_setup.sh
+[0.559s] -- Up-to-date: /home/katie/turtlebot3_ws/install/gallery_database/share/gallery_database/local_setup.zsh
+[0.559s] -- Up-to-date: /home/katie/turtlebot3_ws/install/gallery_database/share/gallery_database/local_setup.dsv
+[0.559s] -- Installing: /home/katie/turtlebot3_ws/install/gallery_database/share/gallery_database/package.dsv
+[0.559s] -- Up-to-date: /home/katie/turtlebot3_ws/install/gallery_database/share/ament_index/resource_index/packages/gallery_database
+[0.559s] -- Up-to-date: /home/katie/turtlebot3_ws/install/gallery_database/share/gallery_database/cmake/gallery_databaseConfig.cmake
+[0.560s] -- Up-to-date: /home/katie/turtlebot3_ws/install/gallery_database/share/gallery_database/cmake/gallery_databaseConfig-version.cmake
+[0.560s] -- Up-to-date: /home/katie/turtlebot3_ws/install/gallery_database/share/gallery_database/package.xml
+[0.605s] Invoked command in '/home/katie/turtlebot3_ws/build/gallery_database' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/katie/turtlebot3_ws/build/gallery_database

@@ -1,0 +1,6 @@
+Invoking command in '/home/katie/turtlebot3_ws/build/pepper_autonomy': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/katie/turtlebot3_ws/src/pepper_autonomy -DCMAKE_INSTALL_PREFIX=/home/katie/turtlebot3_ws/install/pepper_autonomy
+Invoked command in '/home/katie/turtlebot3_ws/build/pepper_autonomy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/katie/turtlebot3_ws/src/pepper_autonomy -DCMAKE_INSTALL_PREFIX=/home/katie/turtlebot3_ws/install/pepper_autonomy
+Invoking command in '/home/katie/turtlebot3_ws/build/pepper_autonomy': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/katie/turtlebot3_ws/build/pepper_autonomy -- -j8 -l8
+Invoked command in '/home/katie/turtlebot3_ws/build/pepper_autonomy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/katie/turtlebot3_ws/build/pepper_autonomy -- -j8 -l8
+Invoking command in '/home/katie/turtlebot3_ws/build/pepper_autonomy': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/katie/turtlebot3_ws/build/pepper_autonomy
+Invoked command in '/home/katie/turtlebot3_ws/build/pepper_autonomy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/katie/turtlebot3_ws/build/pepper_autonomy

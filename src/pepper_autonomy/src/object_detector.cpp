@@ -9,7 +9,7 @@ public:
     {
         // Subscribe to LaserScan data
         subscription_ = this->create_subscription<sensor_msgs::msg::LaserScan>(
-            "/scan", 10, std::bind(&ObjectDetector::laser_callback, this, std::placeholders::_1));
+            "/scan", rclcpp::SensorDataQoS(), std::bind(&ObjectDetector::laser_callback, this, std::placeholders::_1));
     }
 
 private:

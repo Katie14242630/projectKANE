@@ -1,0 +1,8 @@
+source;share/book_database/hook/cmake_prefix_path.ps1
+source;share/book_database/hook/cmake_prefix_path.dsv
+source;share/book_database/hook/cmake_prefix_path.sh
+source;share/book_database/local_setup.bash
+source;share/book_database/local_setup.dsv
+source;share/book_database/local_setup.ps1
+source;share/book_database/local_setup.sh
+source;share/book_database/local_setup.zsh

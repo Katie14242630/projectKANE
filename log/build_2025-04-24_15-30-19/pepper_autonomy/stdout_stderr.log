@@ -1,0 +1,34 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/object_detector.dir/src/object_detector.cpp.o[0m
+[ 80%] Built target autonomy_node
+[01m[K/home/katie/turtlebot3_ws/src/pepper_autonomy/src/object_detector.cpp:[m[K In member function ‘[01m[Kvoid ObjectDetector::laser_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/katie/turtlebot3_ws/src/pepper_autonomy/src/object_detector.cpp:20:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmin_range[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   20 |         float [01;35m[Kmin_range[m[K = msg->range_min;
+      |               [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/katie/turtlebot3_ws/src/pepper_autonomy/src/object_detector.cpp:21:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmax_range[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   21 |         float [01;35m[Kmax_range[m[K = msg->range_max;
+      |               [01;35m[K^~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable object_detector[0m
+[100%] Built target object_detector
+-- Install configuration: ""
+-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/bt_xml
+-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/bt_xml/tree.xml
+-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/launch
+-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/launch/autonomy.launch.py
+-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/lib/pepper_autonomy/autonomy_node
+-- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/lib/pepper_autonomy/object_detector
+-- Set runtime path of "/home/katie/turtlebot3_ws/install/pepper_autonomy/lib/pepper_autonomy/object_detector" to ""
+-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/ament_index/resource_index/package_run_dependencies/pepper_autonomy
+-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/ament_index/resource_index/parent_prefix_path/pepper_autonomy
+-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/environment/ament_prefix_path.sh
+-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/environment/path.sh
+-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/environment/path.dsv
+-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/local_setup.bash
+-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/local_setup.sh
+-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/local_setup.zsh
+-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/local_setup.dsv
+-- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/package.dsv
+-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/ament_index/resource_index/packages/pepper_autonomy
+-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/cmake/pepper_autonomyConfig.cmake
+-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/cmake/pepper_autonomyConfig-version.cmake
+-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/package.xml

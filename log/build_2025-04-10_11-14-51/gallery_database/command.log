@@ -1,0 +1,4 @@
+Invoking command in '/home/katie/turtlebot3_ws/build/gallery_database': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/katie/turtlebot3_ws/build/gallery_database -- -j8 -l8
+Invoked command in '/home/katie/turtlebot3_ws/build/gallery_database' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/katie/turtlebot3_ws/build/gallery_database -- -j8 -l8
+Invoking command in '/home/katie/turtlebot3_ws/build/gallery_database': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/katie/turtlebot3_ws/build/gallery_database
+Invoked command in '/home/katie/turtlebot3_ws/build/gallery_database' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/katie/turtlebot3_ws/build/gallery_database

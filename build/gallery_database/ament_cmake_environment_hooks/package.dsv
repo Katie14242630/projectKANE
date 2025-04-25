@@ -1,0 +1,4 @@
+source;share/gallery_database/local_setup.bash
+source;share/gallery_database/local_setup.dsv
+source;share/gallery_database/local_setup.sh
+source;share/gallery_database/local_setup.zsh

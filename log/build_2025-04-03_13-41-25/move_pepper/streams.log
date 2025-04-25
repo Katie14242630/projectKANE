@@ -1,0 +1,21 @@
+[2.576s] Invoking command in '/home/katie/turtlebot3_ws/src/move_pepper': PYTHONPATH=/home/katie/turtlebot3_ws/build/move_pepper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/katie/turtlebot3_ws/install/move_pepper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/move_pepper build --build-base /home/katie/turtlebot3_ws/build/move_pepper/build install --record /home/katie/turtlebot3_ws/build/move_pepper/install.log --single-version-externally-managed install_data
+[3.399s] running egg_info
+[3.401s] writing ../../build/move_pepper/move_pepper.egg-info/PKG-INFO
+[3.403s] writing dependency_links to ../../build/move_pepper/move_pepper.egg-info/dependency_links.txt
+[3.403s] writing entry points to ../../build/move_pepper/move_pepper.egg-info/entry_points.txt
+[3.403s] writing requirements to ../../build/move_pepper/move_pepper.egg-info/requires.txt
+[3.405s] writing top-level names to ../../build/move_pepper/move_pepper.egg-info/top_level.txt
+[3.411s] reading manifest file '../../build/move_pepper/move_pepper.egg-info/SOURCES.txt'
+[3.416s] writing manifest file '../../build/move_pepper/move_pepper.egg-info/SOURCES.txt'
+[3.418s] running build
+[3.418s] running build_py
+[3.418s] running install
+[3.419s] running install_lib
+[3.424s] running install_data
+[3.426s] running install_egg_info
+[3.432s] removing '/home/katie/turtlebot3_ws/install/move_pepper/lib/python3.10/site-packages/move_pepper-0.0.0-py3.10.egg-info' (and everything under it)
+[3.434s] Copying ../../build/move_pepper/move_pepper.egg-info to /home/katie/turtlebot3_ws/install/move_pepper/lib/python3.10/site-packages/move_pepper-0.0.0-py3.10.egg-info
+[3.437s] running install_scripts
+[3.501s] Installing amcl_init_pose_publisher script to /home/katie/turtlebot3_ws/install/move_pepper/lib/move_pepper
+[3.502s] writing list of installed files to '/home/katie/turtlebot3_ws/build/move_pepper/install.log'
+[3.593s] Invoked command in '/home/katie/turtlebot3_ws/src/move_pepper' returned '0': PYTHONPATH=/home/katie/turtlebot3_ws/build/move_pepper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/katie/turtlebot3_ws/install/move_pepper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/move_pepper build --build-base /home/katie/turtlebot3_ws/build/move_pepper/build install --record /home/katie/turtlebot3_ws/build/move_pepper/install.log --single-version-externally-managed install_data

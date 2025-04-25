@@ -1,0 +1,342 @@
+[0.000000] (-) TimerEvent: {}
+[0.000630] (book_database) JobQueued: {'identifier': 'book_database', 'dependencies': OrderedDict()}
+[0.001435] (gallery_database) JobQueued: {'identifier': 'gallery_database', 'dependencies': OrderedDict()}
+[0.001538] (move_pepper) JobQueued: {'identifier': 'move_pepper', 'dependencies': OrderedDict()}
+[0.001622] (pepper_autonomy) JobQueued: {'identifier': 'pepper_autonomy', 'dependencies': OrderedDict()}
+[0.001695] (book_database) JobStarted: {'identifier': 'book_database'}
+[0.023548] (gallery_database) JobStarted: {'identifier': 'gallery_database'}
+[0.037517] (move_pepper) JobStarted: {'identifier': 'move_pepper'}
+[0.059476] (pepper_autonomy) JobStarted: {'identifier': 'pepper_autonomy'}
+[0.082930] (book_database) JobProgress: {'identifier': 'book_database', 'progress': 'cmake'}
+[0.085843] (book_database) JobProgress: {'identifier': 'book_database', 'progress': 'build'}
+[0.087729] (book_database) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/katie/turtlebot3_ws/build/book_database', '--', '-j8', '-l8'], 'cwd': '/home/katie/turtlebot3_ws/build/book_database', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'katie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/katie'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1699'), ('SYSTEMD_EXEC_PID', '1865'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8818'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/katie/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'katie'), ('JOURNAL_STREAM', '8:35931'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'katie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/katie/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/katie-HP-Laptop-14s-dk0xxx:@/tmp/.ICE-unix/1832,unix/katie-HP-Laptop-14s-dk0xxx:/tmp/.ICE-unix/1832'), ('INVOCATION_ID', '1c08229f6961497b84f15a1dacd64c10'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5OZB42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/katie/turtlebot3_ws/install/book_database:/home/katie/turtlebot3_ws/install/pepper_autonomy:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:2bef2233-6f30-47cf-b600-d16e7cc5d47d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/katie/turtlebot3_ws/build/book_database'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/katie/turtlebot3_ws/install/move_pepper/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/katie/turtlebot3_ws/install/book_database:/home/katie/turtlebot3_ws/install/pepper_autonomy:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble')]), 'shell': False}
+[0.095941] (gallery_database) JobProgress: {'identifier': 'gallery_database', 'progress': 'cmake'}
+[0.097304] (gallery_database) Command: {'cmd': ['/usr/bin/cmake', '/home/katie/turtlebot3_ws/kane_gui', '-DCMAKE_INSTALL_PREFIX=/home/katie/turtlebot3_ws/install/gallery_database'], 'cwd': '/home/katie/turtlebot3_ws/build/gallery_database', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'katie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/katie'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1699'), ('SYSTEMD_EXEC_PID', '1865'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8818'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/katie/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'katie'), ('JOURNAL_STREAM', '8:35931'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'katie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/katie/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/katie-HP-Laptop-14s-dk0xxx:@/tmp/.ICE-unix/1832,unix/katie-HP-Laptop-14s-dk0xxx:/tmp/.ICE-unix/1832'), ('INVOCATION_ID', '1c08229f6961497b84f15a1dacd64c10'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5OZB42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/katie/turtlebot3_ws/install/book_database:/home/katie/turtlebot3_ws/install/pepper_autonomy:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:2bef2233-6f30-47cf-b600-d16e7cc5d47d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/katie/turtlebot3_ws/build/gallery_database'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/katie/turtlebot3_ws/install/move_pepper/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/katie/turtlebot3_ws/install/book_database:/home/katie/turtlebot3_ws/install/pepper_autonomy:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble')]), 'shell': False}
+[0.099258] (-) TimerEvent: {}
+[0.199685] (-) TimerEvent: {}
+[0.302336] (-) TimerEvent: {}
+[0.402782] (-) TimerEvent: {}
+[0.505296] (-) TimerEvent: {}
+[0.607580] (-) TimerEvent: {}
+[0.709644] (-) TimerEvent: {}
+[0.810092] (-) TimerEvent: {}
+[0.910518] (-) TimerEvent: {}
+[1.011472] (-) TimerEvent: {}
+[1.112754] (-) TimerEvent: {}
+[1.132464] (book_database) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target book_database\x1b[0m\n'}
+[1.132919] (book_database) StdoutLine: {'line': b'[100%] Built target book_database\n'}
+[1.134128] (gallery_database) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.135410] (gallery_database) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.136994] (gallery_database) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.137183] (gallery_database) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.137358] (gallery_database) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.137519] (gallery_database) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.137690] (gallery_database) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.137882] (gallery_database) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.138024] (gallery_database) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.150585] (pepper_autonomy) JobProgress: {'identifier': 'pepper_autonomy', 'progress': 'cmake'}
+[1.150754] (pepper_autonomy) JobProgress: {'identifier': 'pepper_autonomy', 'progress': 'build'}
+[1.150820] (pepper_autonomy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/katie/turtlebot3_ws/build/pepper_autonomy', '--', '-j8', '-l8'], 'cwd': '/home/katie/turtlebot3_ws/build/pepper_autonomy', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'katie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/katie'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1699'), ('SYSTEMD_EXEC_PID', '1865'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8818'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/katie/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'katie'), ('JOURNAL_STREAM', '8:35931'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'katie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/katie/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/katie-HP-Laptop-14s-dk0xxx:@/tmp/.ICE-unix/1832,unix/katie-HP-Laptop-14s-dk0xxx:/tmp/.ICE-unix/1832'), ('INVOCATION_ID', '1c08229f6961497b84f15a1dacd64c10'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5OZB42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/katie/turtlebot3_ws/install/book_database:/home/katie/turtlebot3_ws/install/pepper_autonomy:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:2bef2233-6f30-47cf-b600-d16e7cc5d47d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/katie/turtlebot3_ws/build/pepper_autonomy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/katie/turtlebot3_ws/install/move_pepper/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/katie/turtlebot3_ws/install/book_database:/home/katie/turtlebot3_ws/install/pepper_autonomy:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble')]), 'shell': False}
+[1.160492] (book_database) CommandEnded: {'returncode': 0}
+[1.161423] (gallery_database) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.163246] (book_database) JobProgress: {'identifier': 'book_database', 'progress': 'install'}
+[1.163454] (gallery_database) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.163749] (gallery_database) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.171404] (gallery_database) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.193908] (book_database) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/katie/turtlebot3_ws/build/book_database'], 'cwd': '/home/katie/turtlebot3_ws/build/book_database', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'katie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/katie'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1699'), ('SYSTEMD_EXEC_PID', '1865'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8818'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/katie/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'katie'), ('JOURNAL_STREAM', '8:35931'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'katie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/katie/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/katie-HP-Laptop-14s-dk0xxx:@/tmp/.ICE-unix/1832,unix/katie-HP-Laptop-14s-dk0xxx:/tmp/.ICE-unix/1832'), ('INVOCATION_ID', '1c08229f6961497b84f15a1dacd64c10'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5OZB42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/katie/turtlebot3_ws/install/book_database:/home/katie/turtlebot3_ws/install/pepper_autonomy:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:2bef2233-6f30-47cf-b600-d16e7cc5d47d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/katie/turtlebot3_ws/build/book_database'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/katie/turtlebot3_ws/install/move_pepper/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/katie/turtlebot3_ws/install/book_database:/home/katie/turtlebot3_ws/install/pepper_autonomy:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble')]), 'shell': False}
+[1.213198] (-) TimerEvent: {}
+[1.230679] (book_database) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.231062] (book_database) StdoutLine: {'line': b'-- Up-to-date: /home/katie/turtlebot3_ws/install/book_database/lib/book_database/book_database\n'}
+[1.232695] (book_database) StdoutLine: {'line': b'-- Up-to-date: /home/katie/turtlebot3_ws/install/book_database/share/ament_index/resource_index/package_run_dependencies/book_database\n'}
+[1.233016] (book_database) StdoutLine: {'line': b'-- Up-to-date: /home/katie/turtlebot3_ws/install/book_database/share/ament_index/resource_index/parent_prefix_path/book_database\n'}
+[1.233534] (book_database) StdoutLine: {'line': b'-- Up-to-date: /home/katie/turtlebot3_ws/install/book_database/share/book_database/environment/ament_prefix_path.sh\n'}
+[1.233855] (book_database) StdoutLine: {'line': b'-- Up-to-date: /home/katie/turtlebot3_ws/install/book_database/share/book_database/environment/ament_prefix_path.dsv\n'}
+[1.234494] (book_database) StdoutLine: {'line': b'-- Up-to-date: /home/katie/turtlebot3_ws/install/book_database/share/book_database/environment/path.sh\n'}
+[1.234793] (book_database) StdoutLine: {'line': b'-- Up-to-date: /home/katie/turtlebot3_ws/install/book_database/share/book_database/environment/path.dsv\n'}
+[1.235027] (book_database) StdoutLine: {'line': b'-- Up-to-date: /home/katie/turtlebot3_ws/install/book_database/share/book_database/local_setup.bash\n'}
+[1.235317] (book_database) StdoutLine: {'line': b'-- Up-to-date: /home/katie/turtlebot3_ws/install/book_database/share/book_database/local_setup.sh\n'}
+[1.235527] (book_database) StdoutLine: {'line': b'-- Up-to-date: /home/katie/turtlebot3_ws/install/book_database/share/book_database/local_setup.zsh\n'}
+[1.235703] (book_database) StdoutLine: {'line': b'-- Up-to-date: /home/katie/turtlebot3_ws/install/book_database/share/book_database/local_setup.dsv\n'}
+[1.236024] (book_database) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/book_database/share/book_database/package.dsv\n'}
+[1.236272] (book_database) StdoutLine: {'line': b'-- Up-to-date: /home/katie/turtlebot3_ws/install/book_database/share/ament_index/resource_index/packages/book_database\n'}
+[1.236528] (book_database) StdoutLine: {'line': b'-- Up-to-date: /home/katie/turtlebot3_ws/install/book_database/share/book_database/cmake/book_databaseConfig.cmake\n'}
+[1.236772] (book_database) StdoutLine: {'line': b'-- Up-to-date: /home/katie/turtlebot3_ws/install/book_database/share/book_database/cmake/book_databaseConfig-version.cmake\n'}
+[1.237023] (book_database) StdoutLine: {'line': b'-- Up-to-date: /home/katie/turtlebot3_ws/install/book_database/share/book_database/package.xml\n'}
+[1.244405] (book_database) CommandEnded: {'returncode': 0}
+[1.313340] (-) TimerEvent: {}
+[1.315596] (book_database) JobEnded: {'identifier': 'book_database', 'rc': 0}
+[1.404975] (pepper_autonomy) StdoutLine: {'line': b'[ 40%] Built target object_detector\n'}
+[1.413556] (-) TimerEvent: {}
+[1.419840] (pepper_autonomy) StdoutLine: {'line': b'[100%] Built target autonomy_node\n'}
+[1.455772] (pepper_autonomy) CommandEnded: {'returncode': 0}
+[1.459592] (pepper_autonomy) JobProgress: {'identifier': 'pepper_autonomy', 'progress': 'install'}
+[1.462455] (pepper_autonomy) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/katie/turtlebot3_ws/build/pepper_autonomy'], 'cwd': '/home/katie/turtlebot3_ws/build/pepper_autonomy', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'katie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/katie'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1699'), ('SYSTEMD_EXEC_PID', '1865'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8818'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/katie/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'katie'), ('JOURNAL_STREAM', '8:35931'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'katie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/katie/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/katie-HP-Laptop-14s-dk0xxx:@/tmp/.ICE-unix/1832,unix/katie-HP-Laptop-14s-dk0xxx:/tmp/.ICE-unix/1832'), ('INVOCATION_ID', '1c08229f6961497b84f15a1dacd64c10'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5OZB42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/katie/turtlebot3_ws/install/book_database:/home/katie/turtlebot3_ws/install/pepper_autonomy:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:2bef2233-6f30-47cf-b600-d16e7cc5d47d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/katie/turtlebot3_ws/build/pepper_autonomy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/katie/turtlebot3_ws/install/move_pepper/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/katie/turtlebot3_ws/install/book_database:/home/katie/turtlebot3_ws/install/pepper_autonomy:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble')]), 'shell': False}
+[1.491556] (pepper_autonomy) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.492236] (pepper_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/bt_xml\n'}
+[1.493413] (pepper_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/bt_xml/tree.xml\n'}
+[1.493664] (pepper_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/launch\n'}
+[1.493872] (pepper_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/launch/autonomy.launch.py\n'}
+[1.494093] (pepper_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/lib/pepper_autonomy/autonomy_node\n'}
+[1.494833] (pepper_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/lib/pepper_autonomy/object_detector\n'}
+[1.495135] (pepper_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/ament_index/resource_index/package_run_dependencies/pepper_autonomy\n'}
+[1.495719] (pepper_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/ament_index/resource_index/parent_prefix_path/pepper_autonomy\n'}
+[1.495983] (pepper_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/environment/ament_prefix_path.sh\n'}
+[1.496194] (pepper_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/environment/ament_prefix_path.dsv\n'}
+[1.496401] (pepper_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/environment/path.sh\n'}
+[1.496603] (pepper_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/environment/path.dsv\n'}
+[1.496812] (pepper_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/local_setup.bash\n'}
+[1.497020] (pepper_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/local_setup.sh\n'}
+[1.497223] (pepper_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/local_setup.zsh\n'}
+[1.497428] (pepper_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/local_setup.dsv\n'}
+[1.497629] (pepper_autonomy) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/package.dsv\n'}
+[1.497954] (pepper_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/ament_index/resource_index/packages/pepper_autonomy\n'}
+[1.498199] (pepper_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/cmake/pepper_autonomyConfig.cmake\n'}
+[1.498513] (pepper_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/cmake/pepper_autonomyConfig-version.cmake\n'}
+[1.498726] (pepper_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/package.xml\n'}
+[1.507472] (pepper_autonomy) CommandEnded: {'returncode': 0}
+[1.513669] (-) TimerEvent: {}
+[1.581371] (pepper_autonomy) JobEnded: {'identifier': 'pepper_autonomy', 'rc': 0}
+[1.613806] (-) TimerEvent: {}
+[1.714283] (-) TimerEvent: {}
+[1.732614] (gallery_database) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.814414] (-) TimerEvent: {}
+[1.914852] (-) TimerEvent: {}
+[2.016267] (-) TimerEvent: {}
+[2.060041] (gallery_database) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.116618] (-) TimerEvent: {}
+[2.217399] (-) TimerEvent: {}
+[2.236007] (gallery_database) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.261106] (gallery_database) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.298034] (gallery_database) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.317555] (-) TimerEvent: {}
+[2.351268] (gallery_database) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.417677] (-) TimerEvent: {}
+[2.423685] (gallery_database) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.517814] (-) TimerEvent: {}
+[2.611870] (move_pepper) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/move_pepper', 'build', '--build-base', '/home/katie/turtlebot3_ws/build/move_pepper/build', 'install', '--record', '/home/katie/turtlebot3_ws/build/move_pepper/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/katie/turtlebot3_ws/src/move_pepper', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_AU:en', 'USER': 'katie', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/katie', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1699', 'SYSTEMD_EXEC_PID': '1865', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '8818', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/katie/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'katie', 'JOURNAL_STREAM': '8:35931', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'katie', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/home/katie/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/katie-HP-Laptop-14s-dk0xxx:@/tmp/.ICE-unix/1832,unix/katie-HP-Laptop-14s-dk0xxx:/tmp/.ICE-unix/1832', 'INVOCATION_ID': '1c08229f6961497b84f15a1dacd64c10', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.5OZB42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/katie/turtlebot3_ws/install/book_database:/home/katie/turtlebot3_ws/install/pepper_autonomy:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:2bef2233-6f30-47cf-b600-d16e7cc5d47d', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11/', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/katie/turtlebot3_ws/build/move_pepper', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/katie/turtlebot3_ws/build/move_pepper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/katie/turtlebot3_ws/install/move_pepper/lib/python3.10/site-packages:/home/katie/turtlebot3_ws/install/move_pepper/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/katie/turtlebot3_ws/install/book_database:/home/katie/turtlebot3_ws/install/pepper_autonomy'}, 'shell': False}
+[2.617936] (-) TimerEvent: {}
+[2.634302] (gallery_database) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.648460] (gallery_database) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.718114] (-) TimerEvent: {}
+[2.819276] (-) TimerEvent: {}
+[2.920807] (-) TimerEvent: {}
+[2.979381] (gallery_database) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.021373] (-) TimerEvent: {}
+[3.076149] (gallery_database) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.121519] (-) TimerEvent: {}
+[3.221079] (gallery_database) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.225880] (-) TimerEvent: {}
+[3.257395] (gallery_database) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.326027] (-) TimerEvent: {}
+[3.426599] (-) TimerEvent: {}
+[3.436844] (move_pepper) StdoutLine: {'line': b'running egg_info\n'}
+[3.439056] (move_pepper) StdoutLine: {'line': b'writing ../../build/move_pepper/move_pepper.egg-info/PKG-INFO\n'}
+[3.440041] (move_pepper) StdoutLine: {'line': b'writing dependency_links to ../../build/move_pepper/move_pepper.egg-info/dependency_links.txt\n'}
+[3.441349] (move_pepper) StdoutLine: {'line': b'writing entry points to ../../build/move_pepper/move_pepper.egg-info/entry_points.txt\n'}
+[3.441783] (move_pepper) StdoutLine: {'line': b'writing requirements to ../../build/move_pepper/move_pepper.egg-info/requires.txt\n'}
+[3.442873] (move_pepper) StdoutLine: {'line': b'writing top-level names to ../../build/move_pepper/move_pepper.egg-info/top_level.txt\n'}
+[3.449543] (move_pepper) StdoutLine: {'line': b"reading manifest file '../../build/move_pepper/move_pepper.egg-info/SOURCES.txt'\n"}
+[3.454174] (move_pepper) StdoutLine: {'line': b"writing manifest file '../../build/move_pepper/move_pepper.egg-info/SOURCES.txt'\n"}
+[3.455853] (move_pepper) StdoutLine: {'line': b'running build\n'}
+[3.456138] (move_pepper) StdoutLine: {'line': b'running build_py\n'}
+[3.456403] (move_pepper) StdoutLine: {'line': b'running install\n'}
+[3.457721] (move_pepper) StdoutLine: {'line': b'running install_lib\n'}
+[3.462532] (move_pepper) StdoutLine: {'line': b'running install_data\n'}
+[3.463929] (move_pepper) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.470544] (move_pepper) StdoutLine: {'line': b"removing '/home/katie/turtlebot3_ws/install/move_pepper/lib/python3.10/site-packages/move_pepper-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.472208] (move_pepper) StdoutLine: {'line': b'Copying ../../build/move_pepper/move_pepper.egg-info to /home/katie/turtlebot3_ws/install/move_pepper/lib/python3.10/site-packages/move_pepper-0.0.0-py3.10.egg-info\n'}
+[3.475338] (move_pepper) StdoutLine: {'line': b'running install_scripts\n'}
+[3.484109] (gallery_database) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.486046] (gallery_database) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.526974] (-) TimerEvent: {}
+[3.538966] (move_pepper) StdoutLine: {'line': b'Installing amcl_init_pose_publisher script to /home/katie/turtlebot3_ws/install/move_pepper/lib/move_pepper\n'}
+[3.539843] (move_pepper) StdoutLine: {'line': b"writing list of installed files to '/home/katie/turtlebot3_ws/build/move_pepper/install.log'\n"}
+[3.627110] (-) TimerEvent: {}
+[3.631455] (move_pepper) CommandEnded: {'returncode': 0}
+[3.650945] (move_pepper) JobEnded: {'identifier': 'move_pepper', 'rc': 0}
+[3.714779] (gallery_database) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.718048] (gallery_database) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.727263] (-) TimerEvent: {}
+[3.827649] (-) TimerEvent: {}
+[3.917297] (gallery_database) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[3.927783] (-) TimerEvent: {}
+[4.028201] (-) TimerEvent: {}
+[4.128740] (-) TimerEvent: {}
+[4.165780] (gallery_database) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.192453] (gallery_database) StdoutLine: {'line': b'-- Generating done\n'}
+[4.202058] (gallery_database) StdoutLine: {'line': b'-- Build files have been written to: /home/katie/turtlebot3_ws/build/gallery_database\n'}
+[4.228698] (gallery_database) CommandEnded: {'returncode': 0}
+[4.229962] (-) TimerEvent: {}
+[4.231153] (gallery_database) JobProgress: {'identifier': 'gallery_database', 'progress': 'build'}
+[4.232740] (gallery_database) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/katie/turtlebot3_ws/build/gallery_database', '--', '-j8', '-l8'], 'cwd': '/home/katie/turtlebot3_ws/build/gallery_database', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'katie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/katie'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1699'), ('SYSTEMD_EXEC_PID', '1865'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8818'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/katie/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'katie'), ('JOURNAL_STREAM', '8:35931'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'katie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/katie/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/katie-HP-Laptop-14s-dk0xxx:@/tmp/.ICE-unix/1832,unix/katie-HP-Laptop-14s-dk0xxx:/tmp/.ICE-unix/1832'), ('INVOCATION_ID', '1c08229f6961497b84f15a1dacd64c10'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5OZB42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/katie/turtlebot3_ws/install/book_database:/home/katie/turtlebot3_ws/install/pepper_autonomy:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:2bef2233-6f30-47cf-b600-d16e7cc5d47d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/katie/turtlebot3_ws/build/gallery_database'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/katie/turtlebot3_ws/install/move_pepper/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/katie/turtlebot3_ws/install/book_database:/home/katie/turtlebot3_ws/install/pepper_autonomy:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble')]), 'shell': False}
+[4.330204] (-) TimerEvent: {}
+[4.365954] (gallery_database) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gallery_database.dir/src/gallery_database.cpp.o\x1b[0m\n'}
+[4.430322] (-) TimerEvent: {}
+[4.530807] (-) TimerEvent: {}
+[4.631278] (-) TimerEvent: {}
+[4.731756] (-) TimerEvent: {}
+[4.832312] (-) TimerEvent: {}
+[4.932991] (-) TimerEvent: {}
+[5.033479] (-) TimerEvent: {}
+[5.133907] (-) TimerEvent: {}
+[5.234682] (-) TimerEvent: {}
+[5.336003] (-) TimerEvent: {}
+[5.436948] (-) TimerEvent: {}
+[5.537692] (-) TimerEvent: {}
+[5.638364] (-) TimerEvent: {}
+[5.738812] (-) TimerEvent: {}
+[5.839605] (-) TimerEvent: {}
+[5.940310] (-) TimerEvent: {}
+[6.040894] (-) TimerEvent: {}
+[6.141397] (-) TimerEvent: {}
+[6.242349] (-) TimerEvent: {}
+[6.343109] (-) TimerEvent: {}
+[6.443650] (-) TimerEvent: {}
+[6.544113] (-) TimerEvent: {}
+[6.644643] (-) TimerEvent: {}
+[6.745259] (-) TimerEvent: {}
+[6.845743] (-) TimerEvent: {}
+[6.946940] (-) TimerEvent: {}
+[7.047473] (-) TimerEvent: {}
+[7.148010] (-) TimerEvent: {}
+[7.248425] (-) TimerEvent: {}
+[7.348844] (-) TimerEvent: {}
+[7.449329] (-) TimerEvent: {}
+[7.549817] (-) TimerEvent: {}
+[7.650325] (-) TimerEvent: {}
+[7.750783] (-) TimerEvent: {}
+[7.851266] (-) TimerEvent: {}
+[7.951757] (-) TimerEvent: {}
+[8.052336] (-) TimerEvent: {}
+[8.152848] (-) TimerEvent: {}
+[8.253381] (-) TimerEvent: {}
+[8.354031] (-) TimerEvent: {}
+[8.454485] (-) TimerEvent: {}
+[8.554922] (-) TimerEvent: {}
+[8.655384] (-) TimerEvent: {}
+[8.755847] (-) TimerEvent: {}
+[8.857928] (-) TimerEvent: {}
+[8.958853] (-) TimerEvent: {}
+[9.059466] (-) TimerEvent: {}
+[9.160880] (-) TimerEvent: {}
+[9.261373] (-) TimerEvent: {}
+[9.361792] (-) TimerEvent: {}
+[9.462239] (-) TimerEvent: {}
+[9.562739] (-) TimerEvent: {}
+[9.663261] (-) TimerEvent: {}
+[9.764315] (-) TimerEvent: {}
+[9.864779] (-) TimerEvent: {}
+[9.965215] (-) TimerEvent: {}
+[10.065733] (-) TimerEvent: {}
+[10.166198] (-) TimerEvent: {}
+[10.266715] (-) TimerEvent: {}
+[10.367607] (-) TimerEvent: {}
+[10.468146] (-) TimerEvent: {}
+[10.568842] (-) TimerEvent: {}
+[10.669319] (-) TimerEvent: {}
+[10.769779] (-) TimerEvent: {}
+[10.870211] (-) TimerEvent: {}
+[10.970693] (-) TimerEvent: {}
+[11.071537] (-) TimerEvent: {}
+[11.172043] (-) TimerEvent: {}
+[11.272500] (-) TimerEvent: {}
+[11.373050] (-) TimerEvent: {}
+[11.473516] (-) TimerEvent: {}
+[11.573998] (-) TimerEvent: {}
+[11.674637] (-) TimerEvent: {}
+[11.775353] (-) TimerEvent: {}
+[11.875884] (-) TimerEvent: {}
+[11.976384] (-) TimerEvent: {}
+[12.076868] (-) TimerEvent: {}
+[12.177636] (-) TimerEvent: {}
+[12.278119] (-) TimerEvent: {}
+[12.378678] (-) TimerEvent: {}
+[12.482091] (-) TimerEvent: {}
+[12.582682] (-) TimerEvent: {}
+[12.683279] (-) TimerEvent: {}
+[12.783820] (-) TimerEvent: {}
+[12.884341] (-) TimerEvent: {}
+[12.984902] (-) TimerEvent: {}
+[13.085446] (-) TimerEvent: {}
+[13.185964] (-) TimerEvent: {}
+[13.286525] (-) TimerEvent: {}
+[13.387083] (-) TimerEvent: {}
+[13.487669] (-) TimerEvent: {}
+[13.588151] (-) TimerEvent: {}
+[13.688604] (-) TimerEvent: {}
+[13.789104] (-) TimerEvent: {}
+[13.889749] (-) TimerEvent: {}
+[13.990305] (-) TimerEvent: {}
+[14.090798] (-) TimerEvent: {}
+[14.191266] (-) TimerEvent: {}
+[14.291931] (-) TimerEvent: {}
+[14.392476] (-) TimerEvent: {}
+[14.493028] (-) TimerEvent: {}
+[14.593628] (-) TimerEvent: {}
+[14.694138] (-) TimerEvent: {}
+[14.794659] (-) TimerEvent: {}
+[14.895209] (-) TimerEvent: {}
+[14.995721] (-) TimerEvent: {}
+[15.096224] (-) TimerEvent: {}
+[15.196673] (-) TimerEvent: {}
+[15.297157] (-) TimerEvent: {}
+[15.397593] (-) TimerEvent: {}
+[15.498014] (-) TimerEvent: {}
+[15.598483] (-) TimerEvent: {}
+[15.698958] (-) TimerEvent: {}
+[15.799454] (-) TimerEvent: {}
+[15.899930] (-) TimerEvent: {}
+[16.000408] (-) TimerEvent: {}
+[16.101105] (-) TimerEvent: {}
+[16.201866] (-) TimerEvent: {}
+[16.302354] (-) TimerEvent: {}
+[16.402826] (-) TimerEvent: {}
+[16.503300] (-) TimerEvent: {}
+[16.603887] (-) TimerEvent: {}
+[16.704441] (-) TimerEvent: {}
+[16.805000] (-) TimerEvent: {}
+[16.905481] (-) TimerEvent: {}
+[17.006115] (-) TimerEvent: {}
+[17.106587] (-) TimerEvent: {}
+[17.207099] (-) TimerEvent: {}
+[17.307736] (-) TimerEvent: {}
+[17.408257] (-) TimerEvent: {}
+[17.508807] (-) TimerEvent: {}
+[17.609264] (-) TimerEvent: {}
+[17.709698] (-) TimerEvent: {}
+[17.810218] (-) TimerEvent: {}
+[17.912475] (-) TimerEvent: {}
+[18.003732] (gallery_database) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable gallery_database\x1b[0m\n'}
+[18.014964] (-) TimerEvent: {}
+[18.117165] (-) TimerEvent: {}
+[18.217777] (-) TimerEvent: {}
+[18.318310] (-) TimerEvent: {}
+[18.418826] (-) TimerEvent: {}
+[18.519292] (-) TimerEvent: {}
+[18.619801] (-) TimerEvent: {}
+[18.667071] (gallery_database) StdoutLine: {'line': b'[100%] Built target gallery_database\n'}
+[18.698979] (gallery_database) CommandEnded: {'returncode': 0}
+[18.702936] (gallery_database) JobProgress: {'identifier': 'gallery_database', 'progress': 'install'}
+[18.703616] (gallery_database) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/katie/turtlebot3_ws/build/gallery_database'], 'cwd': '/home/katie/turtlebot3_ws/build/gallery_database', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'katie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/katie'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1699'), ('SYSTEMD_EXEC_PID', '1865'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8818'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/katie/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'katie'), ('JOURNAL_STREAM', '8:35931'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'katie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/katie/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/katie-HP-Laptop-14s-dk0xxx:@/tmp/.ICE-unix/1832,unix/katie-HP-Laptop-14s-dk0xxx:/tmp/.ICE-unix/1832'), ('INVOCATION_ID', '1c08229f6961497b84f15a1dacd64c10'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5OZB42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/katie/turtlebot3_ws/install/book_database:/home/katie/turtlebot3_ws/install/pepper_autonomy:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:2bef2233-6f30-47cf-b600-d16e7cc5d47d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/katie/turtlebot3_ws/build/gallery_database'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/katie/turtlebot3_ws/install/move_pepper/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/katie/turtlebot3_ws/install/book_database:/home/katie/turtlebot3_ws/install/pepper_autonomy:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble')]), 'shell': False}
+[18.719952] (-) TimerEvent: {}
+[18.722521] (gallery_database) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.722956] (gallery_database) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/gallery_database/lib/gallery_database/gallery_database\n'}
+[18.727553] (gallery_database) StdoutLine: {'line': b'-- Set runtime path of "/home/katie/turtlebot3_ws/install/gallery_database/lib/gallery_database/gallery_database" to ""\n'}
+[18.727927] (gallery_database) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/gallery_database/share/ament_index/resource_index/package_run_dependencies/gallery_database\n'}
+[18.728508] (gallery_database) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/gallery_database/share/ament_index/resource_index/parent_prefix_path/gallery_database\n'}
+[18.729267] (gallery_database) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/gallery_database/share/gallery_database/environment/ament_prefix_path.sh\n'}
+[18.729773] (gallery_database) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/gallery_database/share/gallery_database/environment/ament_prefix_path.dsv\n'}
+[18.730236] (gallery_database) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/gallery_database/share/gallery_database/environment/path.sh\n'}
+[18.730618] (gallery_database) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/gallery_database/share/gallery_database/environment/path.dsv\n'}
+[18.731058] (gallery_database) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/gallery_database/share/gallery_database/local_setup.bash\n'}
+[18.731510] (gallery_database) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/gallery_database/share/gallery_database/local_setup.sh\n'}
+[18.732125] (gallery_database) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/gallery_database/share/gallery_database/local_setup.zsh\n'}
+[18.732669] (gallery_database) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/gallery_database/share/gallery_database/local_setup.dsv\n'}
+[18.733276] (gallery_database) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/gallery_database/share/gallery_database/package.dsv\n'}
+[18.733834] (gallery_database) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/gallery_database/share/ament_index/resource_index/packages/gallery_database\n'}
+[18.734471] (gallery_database) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/gallery_database/share/gallery_database/cmake/gallery_databaseConfig.cmake\n'}
+[18.734953] (gallery_database) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/gallery_database/share/gallery_database/cmake/gallery_databaseConfig-version.cmake\n'}
+[18.735473] (gallery_database) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/gallery_database/share/gallery_database/package.xml\n'}
+[18.740510] (gallery_database) CommandEnded: {'returncode': 0}
+[18.781761] (gallery_database) JobEnded: {'identifier': 'gallery_database', 'rc': 0}
+[18.783578] (-) EventReactorShutdown: {}

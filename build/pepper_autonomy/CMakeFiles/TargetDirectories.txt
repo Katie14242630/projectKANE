@@ -1,0 +1,11 @@
+/home/katie/turtlebot3_ws/build/pepper_autonomy/CMakeFiles/uninstall.dir
+/home/katie/turtlebot3_ws/build/pepper_autonomy/CMakeFiles/pepper_autonomy_uninstall.dir
+/home/katie/turtlebot3_ws/build/pepper_autonomy/CMakeFiles/autonomy_node.dir
+/home/katie/turtlebot3_ws/build/pepper_autonomy/CMakeFiles/object_detector.dir
+/home/katie/turtlebot3_ws/build/pepper_autonomy/CMakeFiles/test.dir
+/home/katie/turtlebot3_ws/build/pepper_autonomy/CMakeFiles/edit_cache.dir
+/home/katie/turtlebot3_ws/build/pepper_autonomy/CMakeFiles/rebuild_cache.dir
+/home/katie/turtlebot3_ws/build/pepper_autonomy/CMakeFiles/list_install_components.dir
+/home/katie/turtlebot3_ws/build/pepper_autonomy/CMakeFiles/install.dir
+/home/katie/turtlebot3_ws/build/pepper_autonomy/CMakeFiles/install/local.dir
+/home/katie/turtlebot3_ws/build/pepper_autonomy/CMakeFiles/install/strip.dir

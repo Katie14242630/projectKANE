@@ -1,0 +1,41 @@
+[1.685s] Invoking command in '/home/katie/turtlebot3_ws/src/move_pepper': PYTHONPATH=/home/katie/turtlebot3_ws/build/move_pepper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/katie/turtlebot3_ws/install/move_pepper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/move_pepper build --build-base /home/katie/turtlebot3_ws/build/move_pepper/build install --record /home/katie/turtlebot3_ws/build/move_pepper/install.log --single-version-externally-managed install_data
+[1.993s] /home/katie/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.993s]   warnings.warn(msg)
+[2.170s] running egg_info
+[2.198s] writing ../../build/move_pepper/move_pepper.egg-info/PKG-INFO
+[2.199s] writing dependency_links to ../../build/move_pepper/move_pepper.egg-info/dependency_links.txt
+[2.200s] writing entry points to ../../build/move_pepper/move_pepper.egg-info/entry_points.txt
+[2.200s] writing requirements to ../../build/move_pepper/move_pepper.egg-info/requires.txt
+[2.200s] writing top-level names to ../../build/move_pepper/move_pepper.egg-info/top_level.txt
+[2.260s] reading manifest file '../../build/move_pepper/move_pepper.egg-info/SOURCES.txt'
+[2.261s] Traceback (most recent call last):
+[2.261s]   File "/home/katie/turtlebot3_ws/src/move_pepper/setup.py", line 7, in <module>
+[2.262s]     setup(
+[2.262s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup
+[2.262s]     return distutils.core.setup(**attrs)
+[2.262s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 186, in setup
+[2.263s]     return run_commands(dist)
+[2.263s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+[2.263s]     dist.run_commands()
+[2.264s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1002, in run_commands
+[2.264s]     self.run_command(cmd)
+[2.264s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/dist.py", line 1104, in run_command
+[2.264s]     super().run_command(command)
+[2.264s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command
+[2.265s]     cmd_obj.run()
+[2.265s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 312, in run
+[2.265s]     self.find_sources()
+[2.266s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 320, in find_sources
+[2.266s]     mm.run()
+[2.266s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 548, in run
+[2.266s]     self.prune_file_list()
+[2.266s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 162, in prune_file_list
+[2.267s]     super().prune_file_list()
+[2.267s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 386, in prune_file_list
+[2.268s]     base_dir = self.distribution.get_fullname()
+[2.269s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 275, in get_fullname
+[2.269s]     return _distribution_fullname(self.get_name(), self.get_version())
+[2.269s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 293, in _distribution_fullname
+[2.270s]     canonicalize_version(version, strip_trailing_zero=False),
+[2.271s] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+[2.321s] Invoked command in '/home/katie/turtlebot3_ws/src/move_pepper' returned '1': PYTHONPATH=/home/katie/turtlebot3_ws/build/move_pepper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/katie/turtlebot3_ws/install/move_pepper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/move_pepper build --build-base /home/katie/turtlebot3_ws/build/move_pepper/build install --record /home/katie/turtlebot3_ws/build/move_pepper/install.log --single-version-externally-managed install_data

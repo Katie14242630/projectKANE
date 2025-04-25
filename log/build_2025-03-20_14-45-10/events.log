@@ -1,0 +1,326 @@
+[0.000000] (-) TimerEvent: {}
+[0.000318] (move_pepper) JobQueued: {'identifier': 'move_pepper', 'dependencies': OrderedDict()}
+[0.000398] (pepper_autonomy) JobQueued: {'identifier': 'pepper_autonomy', 'dependencies': OrderedDict()}
+[0.000472] (move_pepper) JobStarted: {'identifier': 'move_pepper'}
+[0.010171] (pepper_autonomy) JobStarted: {'identifier': 'pepper_autonomy'}
+[0.099047] (-) TimerEvent: {}
+[0.199432] (-) TimerEvent: {}
+[0.299822] (-) TimerEvent: {}
+[0.398594] (pepper_autonomy) JobProgress: {'identifier': 'pepper_autonomy', 'progress': 'cmake'}
+[0.399201] (pepper_autonomy) Command: {'cmd': ['/usr/bin/cmake', '/home/katie/turtlebot3_ws/src/pepper_autonomy', '-DCMAKE_INSTALL_PREFIX=/home/katie/turtlebot3_ws/install/pepper_autonomy'], 'cwd': '/home/katie/turtlebot3_ws/build/pepper_autonomy', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'katie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/katie'), ('OLDPWD', '/home/katie'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1388'), ('SYSTEMD_EXEC_PID', '1510'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '28852'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'katie'), ('JOURNAL_STREAM', '8:31294'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'katie'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/katie/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/katie/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/katie-HP-Laptop-14s-dk0xxx:@/tmp/.ICE-unix/1487,unix/katie-HP-Laptop-14s-dk0xxx:/tmp/.ICE-unix/1487'), ('INVOCATION_ID', '1b86acc4652c41f3843d5ffd8d2f6a6c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5SMH32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '20'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:bc515063-b6a9-4849-81f6-e56ce4a304cc'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/katie/turtlebot3_ws/build/pepper_autonomy'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.405920] (-) TimerEvent: {}
+[0.506844] (-) TimerEvent: {}
+[0.598267] (pepper_autonomy) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.606962] (-) TimerEvent: {}
+[0.707330] (-) TimerEvent: {}
+[0.740179] (pepper_autonomy) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.758473] (pepper_autonomy) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.807440] (-) TimerEvent: {}
+[0.862805] (pepper_autonomy) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.876395] (pepper_autonomy) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.876862] (pepper_autonomy) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.877523] (pepper_autonomy) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.882322] (pepper_autonomy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.907552] (-) TimerEvent: {}
+[0.993328] (pepper_autonomy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.004361] (pepper_autonomy) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.004745] (pepper_autonomy) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.005170] (pepper_autonomy) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.007630] (-) TimerEvent: {}
+[1.013029] (pepper_autonomy) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.027490] (move_pepper) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/move_pepper', 'build', '--build-base', '/home/katie/turtlebot3_ws/build/move_pepper/build', 'install', '--record', '/home/katie/turtlebot3_ws/build/move_pepper/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/katie/turtlebot3_ws/src/move_pepper', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_AU:en', 'USER': 'katie', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/katie', 'OLDPWD': '/home/katie', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1388', 'SYSTEMD_EXEC_PID': '1510', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '28852', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'katie', 'JOURNAL_STREAM': '8:31294', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'katie', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/home/katie/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/home/katie/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/katie-HP-Laptop-14s-dk0xxx:@/tmp/.ICE-unix/1487,unix/katie-HP-Laptop-14s-dk0xxx:/tmp/.ICE-unix/1487', 'INVOCATION_ID': '1b86acc4652c41f3843d5ffd8d2f6a6c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.5SMH32', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '20', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:bc515063-b6a9-4849-81f6-e56ce4a304cc', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11/', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/katie/turtlebot3_ws/build/move_pepper', 'TURTLEBOT3_MODEL': 'waffle_pi', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/katie/turtlebot3_ws/build/move_pepper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/katie/turtlebot3_ws/install/move_pepper/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.107760] (-) TimerEvent: {}
+[1.208174] (-) TimerEvent: {}
+[1.275616] (pepper_autonomy) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.308283] (-) TimerEvent: {}
+[1.348856] (move_pepper) StdoutLine: {'line': b'running egg_info\n'}
+[1.349504] (move_pepper) StdoutLine: {'line': b'creating ../../build/move_pepper/move_pepper.egg-info\n'}
+[1.349809] (move_pepper) StdoutLine: {'line': b'writing ../../build/move_pepper/move_pepper.egg-info/PKG-INFO\n'}
+[1.350068] (move_pepper) StdoutLine: {'line': b'writing dependency_links to ../../build/move_pepper/move_pepper.egg-info/dependency_links.txt\n'}
+[1.350239] (move_pepper) StdoutLine: {'line': b'writing entry points to ../../build/move_pepper/move_pepper.egg-info/entry_points.txt\n'}
+[1.350397] (move_pepper) StdoutLine: {'line': b'writing requirements to ../../build/move_pepper/move_pepper.egg-info/requires.txt\n'}
+[1.350564] (move_pepper) StdoutLine: {'line': b'writing top-level names to ../../build/move_pepper/move_pepper.egg-info/top_level.txt\n'}
+[1.350844] (move_pepper) StdoutLine: {'line': b"writing manifest file '../../build/move_pepper/move_pepper.egg-info/SOURCES.txt'\n"}
+[1.353052] (move_pepper) StdoutLine: {'line': b"reading manifest file '../../build/move_pepper/move_pepper.egg-info/SOURCES.txt'\n"}
+[1.353851] (move_pepper) StdoutLine: {'line': b"writing manifest file '../../build/move_pepper/move_pepper.egg-info/SOURCES.txt'\n"}
+[1.354072] (move_pepper) StdoutLine: {'line': b'running build\n'}
+[1.354201] (move_pepper) StdoutLine: {'line': b'running build_py\n'}
+[1.354348] (move_pepper) StdoutLine: {'line': b'creating /home/katie/turtlebot3_ws/build/move_pepper/build\n'}
+[1.354599] (move_pepper) StdoutLine: {'line': b'creating /home/katie/turtlebot3_ws/build/move_pepper/build/lib\n'}
+[1.354722] (move_pepper) StdoutLine: {'line': b'creating /home/katie/turtlebot3_ws/build/move_pepper/build/lib/move_pepper\n'}
+[1.354805] (move_pepper) StdoutLine: {'line': b'copying move_pepper/__init__.py -> /home/katie/turtlebot3_ws/build/move_pepper/build/lib/move_pepper\n'}
+[1.354954] (move_pepper) StdoutLine: {'line': b'copying move_pepper/set_init_amcl_pose.py -> /home/katie/turtlebot3_ws/build/move_pepper/build/lib/move_pepper\n'}
+[1.355166] (move_pepper) StdoutLine: {'line': b'running install\n'}
+[1.355646] (move_pepper) StdoutLine: {'line': b'running install_lib\n'}
+[1.356829] (move_pepper) StdoutLine: {'line': b'creating /home/katie/turtlebot3_ws/install/move_pepper/lib/python3.10/site-packages/move_pepper\n'}
+[1.357059] (move_pepper) StdoutLine: {'line': b'copying /home/katie/turtlebot3_ws/build/move_pepper/build/lib/move_pepper/__init__.py -> /home/katie/turtlebot3_ws/install/move_pepper/lib/python3.10/site-packages/move_pepper\n'}
+[1.357232] (move_pepper) StdoutLine: {'line': b'copying /home/katie/turtlebot3_ws/build/move_pepper/build/lib/move_pepper/set_init_amcl_pose.py -> /home/katie/turtlebot3_ws/install/move_pepper/lib/python3.10/site-packages/move_pepper\n'}
+[1.357811] (move_pepper) StdoutLine: {'line': b'byte-compiling /home/katie/turtlebot3_ws/install/move_pepper/lib/python3.10/site-packages/move_pepper/__init__.py to __init__.cpython-310.pyc\n'}
+[1.358245] (move_pepper) StdoutLine: {'line': b'byte-compiling /home/katie/turtlebot3_ws/install/move_pepper/lib/python3.10/site-packages/move_pepper/set_init_amcl_pose.py to set_init_amcl_pose.cpython-310.pyc\n'}
+[1.359027] (move_pepper) StdoutLine: {'line': b'running install_data\n'}
+[1.359324] (move_pepper) StdoutLine: {'line': b'creating /home/katie/turtlebot3_ws/install/move_pepper/share/ament_index\n'}
+[1.359476] (move_pepper) StdoutLine: {'line': b'creating /home/katie/turtlebot3_ws/install/move_pepper/share/ament_index/resource_index\n'}
+[1.359588] (move_pepper) StdoutLine: {'line': b'creating /home/katie/turtlebot3_ws/install/move_pepper/share/ament_index/resource_index/packages\n'}
+[1.359730] (move_pepper) StdoutLine: {'line': b'copying resource/move_pepper -> /home/katie/turtlebot3_ws/install/move_pepper/share/ament_index/resource_index/packages\n'}
+[1.359848] (move_pepper) StdoutLine: {'line': b'copying package.xml -> /home/katie/turtlebot3_ws/install/move_pepper/share/move_pepper\n'}
+[1.359923] (move_pepper) StdoutLine: {'line': b'copying launch/library4.launch.py -> /home/katie/turtlebot3_ws/install/move_pepper/share/move_pepper\n'}
+[1.360109] (move_pepper) StdoutLine: {'line': b'copying launch/nav2.launch.py -> /home/katie/turtlebot3_ws/install/move_pepper/share/move_pepper\n'}
+[1.360330] (move_pepper) StdoutLine: {'line': b'creating /home/katie/turtlebot3_ws/install/move_pepper/share/move_pepper/config\n'}
+[1.360565] (move_pepper) StdoutLine: {'line': b'creating /home/katie/turtlebot3_ws/install/move_pepper/share/move_pepper/maps\n'}
+[1.360706] (move_pepper) StdoutLine: {'line': b'copying maps/map.yaml -> /home/katie/turtlebot3_ws/install/move_pepper/share/move_pepper/maps/\n'}
+[1.360836] (move_pepper) StdoutLine: {'line': b'copying maps/map.pgm -> /home/katie/turtlebot3_ws/install/move_pepper/share/move_pepper/maps/\n'}
+[1.361575] (move_pepper) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.364805] (move_pepper) StdoutLine: {'line': b'Copying ../../build/move_pepper/move_pepper.egg-info to /home/katie/turtlebot3_ws/install/move_pepper/lib/python3.10/site-packages/move_pepper-0.0.0-py3.10.egg-info\n'}
+[1.366135] (move_pepper) StdoutLine: {'line': b'running install_scripts\n'}
+[1.388108] (move_pepper) StdoutLine: {'line': b'Installing amcl_init_pose_publisher script to /home/katie/turtlebot3_ws/install/move_pepper/lib/move_pepper\n'}
+[1.388505] (move_pepper) StdoutLine: {'line': b"writing list of installed files to '/home/katie/turtlebot3_ws/build/move_pepper/install.log'\n"}
+[1.408428] (-) TimerEvent: {}
+[1.429786] (move_pepper) CommandEnded: {'returncode': 0}
+[1.434789] (pepper_autonomy) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.445325] (move_pepper) JobEnded: {'identifier': 'move_pepper', 'rc': 0}
+[1.508542] (-) TimerEvent: {}
+[1.511885] (pepper_autonomy) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.520070] (pepper_autonomy) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.534094] (pepper_autonomy) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.557301] (pepper_autonomy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.581395] (pepper_autonomy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.608651] (-) TimerEvent: {}
+[1.646412] (pepper_autonomy) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.650651] (pepper_autonomy) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.708757] (-) TimerEvent: {}
+[1.771662] (pepper_autonomy) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.807615] (pepper_autonomy) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.808821] (-) TimerEvent: {}
+[1.861638] (pepper_autonomy) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.876847] (pepper_autonomy) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.908957] (-) TimerEvent: {}
+[2.009304] (-) TimerEvent: {}
+[2.026601] (pepper_autonomy) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.027773] (pepper_autonomy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.109411] (-) TimerEvent: {}
+[2.149228] (pepper_autonomy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.150926] (pepper_autonomy) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.209535] (-) TimerEvent: {}
+[2.234352] (pepper_autonomy) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.11 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[2.288166] (pepper_autonomy) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[2.309661] (-) TimerEvent: {}
+[2.371761] (pepper_autonomy) StdoutLine: {'line': b'-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)\n'}
+[2.393258] (pepper_autonomy) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[2.409771] (-) TimerEvent: {}
+[2.414247] (pepper_autonomy) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.415943] (pepper_autonomy) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.416172] (pepper_autonomy) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.494063] (pepper_autonomy) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.509902] (-) TimerEvent: {}
+[2.522799] (pepper_autonomy) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.610032] (-) TimerEvent: {}
+[2.638123] (pepper_autonomy) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.639890] (pepper_autonomy) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.640210] (pepper_autonomy) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/katie/turtlebot3_ws/src/pepper_autonomy/include\n'}
+[2.640320] (pepper_autonomy) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.641722] (pepper_autonomy) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.641844] (pepper_autonomy) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.642377] (pepper_autonomy) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.643101] (pepper_autonomy) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.643748] (pepper_autonomy) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.645173] (pepper_autonomy) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.645361] (pepper_autonomy) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.645897] (pepper_autonomy) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.647620] (pepper_autonomy) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.670069] (pepper_autonomy) StdoutLine: {'line': b'-- Generating done\n'}
+[2.678026] (pepper_autonomy) StdoutLine: {'line': b'-- Build files have been written to: /home/katie/turtlebot3_ws/build/pepper_autonomy\n'}
+[2.690708] (pepper_autonomy) CommandEnded: {'returncode': 0}
+[2.691973] (pepper_autonomy) JobProgress: {'identifier': 'pepper_autonomy', 'progress': 'build'}
+[2.693587] (pepper_autonomy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/katie/turtlebot3_ws/build/pepper_autonomy', '--', '-j8', '-l8'], 'cwd': '/home/katie/turtlebot3_ws/build/pepper_autonomy', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'katie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/katie'), ('OLDPWD', '/home/katie'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1388'), ('SYSTEMD_EXEC_PID', '1510'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '28852'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'katie'), ('JOURNAL_STREAM', '8:31294'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'katie'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/katie/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/katie/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/katie-HP-Laptop-14s-dk0xxx:@/tmp/.ICE-unix/1487,unix/katie-HP-Laptop-14s-dk0xxx:/tmp/.ICE-unix/1487'), ('INVOCATION_ID', '1b86acc4652c41f3843d5ffd8d2f6a6c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5SMH32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '20'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:bc515063-b6a9-4849-81f6-e56ce4a304cc'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/katie/turtlebot3_ws/build/pepper_autonomy'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.710147] (-) TimerEvent: {}
+[2.784373] (pepper_autonomy) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/autonomy_node.dir/src/autonomy_node.cpp.o\x1b[0m\n'}
+[2.785869] (pepper_autonomy) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/autonomy_node.dir/src/navigation_behaviors.cpp.o\x1b[0m\n'}
+[2.800206] (pepper_autonomy) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/object_detector.dir/src/object_detector.cpp.o\x1b[0m\n'}
+[2.810262] (-) TimerEvent: {}
+[2.910733] (-) TimerEvent: {}
+[3.011083] (-) TimerEvent: {}
+[3.111458] (-) TimerEvent: {}
+[3.211793] (-) TimerEvent: {}
+[3.312114] (-) TimerEvent: {}
+[3.412455] (-) TimerEvent: {}
+[3.512848] (-) TimerEvent: {}
+[3.613274] (-) TimerEvent: {}
+[3.713800] (-) TimerEvent: {}
+[3.814218] (-) TimerEvent: {}
+[3.914608] (-) TimerEvent: {}
+[4.014995] (-) TimerEvent: {}
+[4.115372] (-) TimerEvent: {}
+[4.215772] (-) TimerEvent: {}
+[4.316193] (-) TimerEvent: {}
+[4.416594] (-) TimerEvent: {}
+[4.516963] (-) TimerEvent: {}
+[4.617359] (-) TimerEvent: {}
+[4.717729] (-) TimerEvent: {}
+[4.818146] (-) TimerEvent: {}
+[4.918520] (-) TimerEvent: {}
+[5.018936] (-) TimerEvent: {}
+[5.119369] (-) TimerEvent: {}
+[5.221410] (-) TimerEvent: {}
+[5.321798] (-) TimerEvent: {}
+[5.422219] (-) TimerEvent: {}
+[5.522584] (-) TimerEvent: {}
+[5.622963] (-) TimerEvent: {}
+[5.723385] (-) TimerEvent: {}
+[5.823805] (-) TimerEvent: {}
+[5.924233] (-) TimerEvent: {}
+[6.024581] (-) TimerEvent: {}
+[6.124958] (-) TimerEvent: {}
+[6.225332] (-) TimerEvent: {}
+[6.325721] (-) TimerEvent: {}
+[6.426100] (-) TimerEvent: {}
+[6.524973] (pepper_autonomy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/katie/turtlebot3_ws/src/pepper_autonomy/src/object_detector.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ObjectDetector::laser_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.532051] (-) TimerEvent: {}
+[6.532272] (pepper_autonomy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/katie/turtlebot3_ws/src/pepper_autonomy/src/object_detector.cpp:20:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kmin_range\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.532507] (pepper_autonomy) StderrLine: {'line': b'   20 |         float \x1b[01;35m\x1b[Kmin_range\x1b[m\x1b[K = msg->range_min;\n'}
+[6.532693] (pepper_autonomy) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.532823] (pepper_autonomy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/katie/turtlebot3_ws/src/pepper_autonomy/src/object_detector.cpp:21:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kmax_range\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.532956] (pepper_autonomy) StderrLine: {'line': b'   21 |         float \x1b[01;35m\x1b[Kmax_range\x1b[m\x1b[K = msg->range_max;\n'}
+[6.533083] (pepper_autonomy) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.632201] (-) TimerEvent: {}
+[6.732581] (-) TimerEvent: {}
+[6.832951] (-) TimerEvent: {}
+[6.933393] (-) TimerEvent: {}
+[7.033785] (-) TimerEvent: {}
+[7.134214] (-) TimerEvent: {}
+[7.234586] (-) TimerEvent: {}
+[7.334978] (-) TimerEvent: {}
+[7.435354] (-) TimerEvent: {}
+[7.535726] (-) TimerEvent: {}
+[7.636145] (-) TimerEvent: {}
+[7.736773] (-) TimerEvent: {}
+[7.837142] (-) TimerEvent: {}
+[7.937540] (-) TimerEvent: {}
+[8.037982] (-) TimerEvent: {}
+[8.138358] (-) TimerEvent: {}
+[8.238723] (-) TimerEvent: {}
+[8.339141] (-) TimerEvent: {}
+[8.439517] (-) TimerEvent: {}
+[8.539927] (-) TimerEvent: {}
+[8.640336] (-) TimerEvent: {}
+[8.740774] (-) TimerEvent: {}
+[8.841105] (-) TimerEvent: {}
+[8.941498] (-) TimerEvent: {}
+[9.041916] (-) TimerEvent: {}
+[9.142392] (-) TimerEvent: {}
+[9.243028] (-) TimerEvent: {}
+[9.343415] (-) TimerEvent: {}
+[9.443830] (-) TimerEvent: {}
+[9.544234] (-) TimerEvent: {}
+[9.644656] (-) TimerEvent: {}
+[9.745058] (-) TimerEvent: {}
+[9.845480] (-) TimerEvent: {}
+[9.946129] (-) TimerEvent: {}
+[10.046669] (-) TimerEvent: {}
+[10.147074] (-) TimerEvent: {}
+[10.247453] (-) TimerEvent: {}
+[10.347838] (-) TimerEvent: {}
+[10.448226] (-) TimerEvent: {}
+[10.548580] (-) TimerEvent: {}
+[10.648970] (-) TimerEvent: {}
+[10.749355] (-) TimerEvent: {}
+[10.849759] (-) TimerEvent: {}
+[10.950169] (-) TimerEvent: {}
+[11.050590] (-) TimerEvent: {}
+[11.151004] (-) TimerEvent: {}
+[11.251398] (-) TimerEvent: {}
+[11.351794] (-) TimerEvent: {}
+[11.452179] (-) TimerEvent: {}
+[11.552577] (-) TimerEvent: {}
+[11.652997] (-) TimerEvent: {}
+[11.753379] (-) TimerEvent: {}
+[11.853765] (-) TimerEvent: {}
+[11.954144] (-) TimerEvent: {}
+[12.054483] (-) TimerEvent: {}
+[12.154807] (-) TimerEvent: {}
+[12.255331] (-) TimerEvent: {}
+[12.355698] (-) TimerEvent: {}
+[12.456023] (-) TimerEvent: {}
+[12.556326] (-) TimerEvent: {}
+[12.656658] (-) TimerEvent: {}
+[12.757009] (-) TimerEvent: {}
+[12.857365] (-) TimerEvent: {}
+[12.957739] (-) TimerEvent: {}
+[13.058107] (-) TimerEvent: {}
+[13.158442] (-) TimerEvent: {}
+[13.258817] (-) TimerEvent: {}
+[13.359270] (-) TimerEvent: {}
+[13.459611] (-) TimerEvent: {}
+[13.560056] (-) TimerEvent: {}
+[13.660536] (-) TimerEvent: {}
+[13.760947] (-) TimerEvent: {}
+[13.861272] (-) TimerEvent: {}
+[13.961603] (-) TimerEvent: {}
+[13.986672] (pepper_autonomy) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable object_detector\x1b[0m\n'}
+[14.061749] (-) TimerEvent: {}
+[14.162117] (-) TimerEvent: {}
+[14.262476] (-) TimerEvent: {}
+[14.362943] (-) TimerEvent: {}
+[14.463400] (-) TimerEvent: {}
+[14.563813] (-) TimerEvent: {}
+[14.664224] (-) TimerEvent: {}
+[14.764620] (-) TimerEvent: {}
+[14.865235] (-) TimerEvent: {}
+[14.958327] (pepper_autonomy) StdoutLine: {'line': b'[ 80%] Built target object_detector\n'}
+[14.965348] (-) TimerEvent: {}
+[15.065734] (-) TimerEvent: {}
+[15.166129] (-) TimerEvent: {}
+[15.266524] (-) TimerEvent: {}
+[15.366924] (-) TimerEvent: {}
+[15.467323] (-) TimerEvent: {}
+[15.567671] (-) TimerEvent: {}
+[15.668044] (-) TimerEvent: {}
+[15.768459] (-) TimerEvent: {}
+[15.868876] (-) TimerEvent: {}
+[15.969298] (-) TimerEvent: {}
+[16.069757] (-) TimerEvent: {}
+[16.170153] (-) TimerEvent: {}
+[16.270544] (-) TimerEvent: {}
+[16.298869] (pepper_autonomy) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable autonomy_node\x1b[0m\n'}
+[16.370670] (-) TimerEvent: {}
+[16.471011] (-) TimerEvent: {}
+[16.571399] (-) TimerEvent: {}
+[16.671834] (-) TimerEvent: {}
+[16.772231] (-) TimerEvent: {}
+[16.872676] (-) TimerEvent: {}
+[16.973074] (-) TimerEvent: {}
+[17.073455] (-) TimerEvent: {}
+[17.173779] (-) TimerEvent: {}
+[17.274095] (-) TimerEvent: {}
+[17.291563] (pepper_autonomy) StdoutLine: {'line': b'[100%] Built target autonomy_node\n'}
+[17.360644] (pepper_autonomy) CommandEnded: {'returncode': 0}
+[17.393289] (-) TimerEvent: {}
+[17.400856] (pepper_autonomy) JobProgress: {'identifier': 'pepper_autonomy', 'progress': 'install'}
+[17.438302] (pepper_autonomy) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/katie/turtlebot3_ws/build/pepper_autonomy'], 'cwd': '/home/katie/turtlebot3_ws/build/pepper_autonomy', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'katie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/katie'), ('OLDPWD', '/home/katie'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1388'), ('SYSTEMD_EXEC_PID', '1510'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '28852'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'katie'), ('JOURNAL_STREAM', '8:31294'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'katie'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/katie/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/katie/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/katie-HP-Laptop-14s-dk0xxx:@/tmp/.ICE-unix/1487,unix/katie-HP-Laptop-14s-dk0xxx:/tmp/.ICE-unix/1487'), ('INVOCATION_ID', '1b86acc4652c41f3843d5ffd8d2f6a6c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5SMH32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '20'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:bc515063-b6a9-4849-81f6-e56ce4a304cc'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/katie/turtlebot3_ws/build/pepper_autonomy'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[17.454758] (pepper_autonomy) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.455112] (pepper_autonomy) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/bt_xml\n'}
+[17.455262] (pepper_autonomy) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/bt_xml/tree.xml\n'}
+[17.455402] (pepper_autonomy) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/launch\n'}
+[17.455536] (pepper_autonomy) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/launch/autonomy.launch.py\n'}
+[17.455711] (pepper_autonomy) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/lib/pepper_autonomy/autonomy_node\n'}
+[17.463126] (pepper_autonomy) StdoutLine: {'line': b'-- Set runtime path of "/home/katie/turtlebot3_ws/install/pepper_autonomy/lib/pepper_autonomy/autonomy_node" to ""\n'}
+[17.463450] (pepper_autonomy) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/lib/pepper_autonomy/object_detector\n'}
+[17.469130] (pepper_autonomy) StdoutLine: {'line': b'-- Set runtime path of "/home/katie/turtlebot3_ws/install/pepper_autonomy/lib/pepper_autonomy/object_detector" to ""\n'}
+[17.469619] (pepper_autonomy) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/ament_index/resource_index/package_run_dependencies/pepper_autonomy\n'}
+[17.470049] (pepper_autonomy) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/ament_index/resource_index/parent_prefix_path/pepper_autonomy\n'}
+[17.470357] (pepper_autonomy) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/environment/ament_prefix_path.sh\n'}
+[17.470653] (pepper_autonomy) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/environment/ament_prefix_path.dsv\n'}
+[17.470996] (pepper_autonomy) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/environment/path.sh\n'}
+[17.471224] (pepper_autonomy) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/environment/path.dsv\n'}
+[17.471557] (pepper_autonomy) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/local_setup.bash\n'}
+[17.471847] (pepper_autonomy) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/local_setup.sh\n'}
+[17.472172] (pepper_autonomy) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/local_setup.zsh\n'}
+[17.472554] (pepper_autonomy) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/local_setup.dsv\n'}
+[17.472923] (pepper_autonomy) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/package.dsv\n'}
+[17.473343] (pepper_autonomy) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/ament_index/resource_index/packages/pepper_autonomy\n'}
+[17.473722] (pepper_autonomy) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/cmake/pepper_autonomyConfig.cmake\n'}
+[17.474001] (pepper_autonomy) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/cmake/pepper_autonomyConfig-version.cmake\n'}
+[17.474280] (pepper_autonomy) StdoutLine: {'line': b'-- Installing: /home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/package.xml\n'}
+[17.479471] (pepper_autonomy) CommandEnded: {'returncode': 0}
+[17.493469] (-) TimerEvent: {}
+[17.557400] (pepper_autonomy) JobEnded: {'identifier': 'pepper_autonomy', 'rc': 0}
+[17.564591] (-) EventReactorShutdown: {}

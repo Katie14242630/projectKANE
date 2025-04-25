@@ -1,0 +1,509 @@
+[0.310s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.310s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f7e7f1427d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7e7f142260>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7e7f142260>>, mixin_verb=('build',))
+[0.876s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.876s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.876s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.876s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.877s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.877s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.877s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/katie/turtlebot3_ws'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(book_database) by extensions ['ignore', 'ignore_ament_install']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(book_database) by extension 'ignore'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(book_database) by extension 'ignore_ament_install'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(book_database) by extensions ['colcon_pkg']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(book_database) by extension 'colcon_pkg'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(book_database) by extensions ['colcon_meta']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(book_database) by extension 'colcon_meta'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(book_database) by extensions ['ros']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(book_database) by extension 'ros'
+[0.912s] DEBUG:colcon.colcon_core.package_identification:Package 'book_database' with type 'ros.ament_cmake' and name 'book_database'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore_ament_install'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['colcon_pkg']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'colcon_pkg'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['colcon_meta']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'colcon_meta'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ros']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ros'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['cmake', 'python']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'cmake'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'python'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['python_setup_py']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'python_setup_py'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper) by extensions ['ignore', 'ignore_ament_install']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper) by extension 'ignore'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper) by extension 'ignore_ament_install'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper) by extensions ['colcon_pkg']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper) by extension 'colcon_pkg'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper) by extensions ['colcon_meta']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper) by extension 'colcon_meta'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper) by extensions ['ros']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper) by extension 'ros'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper) by extensions ['cmake', 'python']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper) by extension 'cmake'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper) by extension 'python'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper) by extensions ['python_setup_py']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper) by extension 'python_setup_py'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share) by extensions ['ignore', 'ignore_ament_install']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share) by extension 'ignore'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share) by extension 'ignore_ament_install'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share) by extensions ['colcon_pkg']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share) by extension 'colcon_pkg'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share) by extensions ['colcon_meta']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share) by extension 'colcon_meta'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share) by extensions ['ros']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share) by extension 'ros'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share) by extensions ['cmake', 'python']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share) by extension 'cmake'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share) by extension 'python'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share) by extensions ['python_setup_py']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share) by extension 'python_setup_py'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share/move_pepper) by extensions ['ignore', 'ignore_ament_install']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share/move_pepper) by extension 'ignore'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share/move_pepper) by extension 'ignore_ament_install'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share/move_pepper) by extensions ['colcon_pkg']
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share/move_pepper) by extension 'colcon_pkg'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share/move_pepper) by extensions ['colcon_meta']
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share/move_pepper) by extension 'colcon_meta'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share/move_pepper) by extensions ['ros']
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share/move_pepper) by extension 'ros'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share/move_pepper) by extensions ['cmake', 'python']
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share/move_pepper) by extension 'cmake'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share/move_pepper) by extension 'python'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share/move_pepper) by extensions ['python_setup_py']
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share/move_pepper) by extension 'python_setup_py'
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share/move_pepper/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share/move_pepper/__pycache__) by extension 'ignore'
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share/move_pepper/__pycache__) by extension 'ignore_ament_install'
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share/move_pepper/__pycache__) by extensions ['colcon_pkg']
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share/move_pepper/__pycache__) by extension 'colcon_pkg'
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share/move_pepper/__pycache__) by extensions ['colcon_meta']
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share/move_pepper/__pycache__) by extension 'colcon_meta'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share/move_pepper/__pycache__) by extensions ['ros']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share/move_pepper/__pycache__) by extension 'ros'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share/move_pepper/__pycache__) by extensions ['cmake', 'python']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share/move_pepper/__pycache__) by extension 'cmake'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share/move_pepper/__pycache__) by extension 'python'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share/move_pepper/__pycache__) by extensions ['python_setup_py']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/move_pepper/share/move_pepper/__pycache__) by extension 'python_setup_py'
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo) by extension 'ignore'
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo) by extension 'ignore_ament_install'
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo) by extensions ['colcon_pkg']
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo) by extension 'colcon_pkg'
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo) by extensions ['colcon_meta']
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo) by extension 'colcon_meta'
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo) by extensions ['ros']
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo) by extension 'ros'
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo) by extensions ['cmake', 'python']
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo) by extension 'cmake'
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo) by extension 'python'
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo) by extensions ['python_setup_py']
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo) by extension 'python_setup_py'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share) by extensions ['ignore', 'ignore_ament_install']
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share) by extension 'ignore'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share) by extension 'ignore_ament_install'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share) by extensions ['colcon_pkg']
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share) by extension 'colcon_pkg'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share) by extensions ['colcon_meta']
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share) by extension 'colcon_meta'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share) by extensions ['ros']
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share) by extension 'ros'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share) by extensions ['cmake', 'python']
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share) by extension 'cmake'
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share) by extension 'python'
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share) by extensions ['python_setup_py']
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share) by extension 'python_setup_py'
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo) by extension 'ignore'
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo) by extension 'ignore_ament_install'
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo) by extensions ['colcon_pkg']
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo) by extension 'colcon_pkg'
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo) by extensions ['colcon_meta']
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo) by extension 'colcon_meta'
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo) by extensions ['ros']
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo) by extension 'ros'
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo) by extensions ['cmake', 'python']
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo) by extension 'cmake'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo) by extension 'python'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo) by extensions ['python_setup_py']
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo) by extension 'python_setup_py'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/launch) by extension 'ignore'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/launch) by extension 'ignore_ament_install'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/launch) by extensions ['colcon_pkg']
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/launch) by extension 'colcon_pkg'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/launch) by extensions ['colcon_meta']
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/launch) by extension 'colcon_meta'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/launch) by extensions ['ros']
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/launch) by extension 'ros'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/launch) by extensions ['cmake', 'python']
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/launch) by extension 'cmake'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/launch) by extension 'python'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/launch) by extensions ['python_setup_py']
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/launch) by extension 'python_setup_py'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/launch/__pycache__) by extension 'ignore'
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/launch/__pycache__) by extension 'ignore_ament_install'
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/launch/__pycache__) by extensions ['colcon_pkg']
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/launch/__pycache__) by extension 'colcon_pkg'
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/launch/__pycache__) by extensions ['colcon_meta']
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/launch/__pycache__) by extension 'colcon_meta'
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/launch/__pycache__) by extensions ['ros']
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/launch/__pycache__) by extension 'ros'
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/launch/__pycache__) by extensions ['cmake', 'python']
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/launch/__pycache__) by extension 'cmake'
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/launch/__pycache__) by extension 'python'
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/launch/__pycache__) by extensions ['python_setup_py']
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/launch/__pycache__) by extension 'python_setup_py'
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/worlds) by extensions ['ignore', 'ignore_ament_install']
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/worlds) by extension 'ignore'
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/worlds) by extension 'ignore_ament_install'
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/worlds) by extensions ['colcon_pkg']
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/worlds) by extension 'colcon_pkg'
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/worlds) by extensions ['colcon_meta']
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/worlds) by extension 'colcon_meta'
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/worlds) by extensions ['ros']
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/worlds) by extension 'ros'
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/worlds) by extensions ['cmake', 'python']
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/worlds) by extension 'cmake'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/worlds) by extension 'python'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/worlds) by extensions ['python_setup_py']
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/worlds) by extension 'python_setup_py'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_pepper) by extensions ['ignore', 'ignore_ament_install']
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_pepper) by extension 'ignore'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_pepper) by extension 'ignore_ament_install'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_pepper) by extensions ['colcon_pkg']
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_pepper) by extension 'colcon_pkg'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_pepper) by extensions ['colcon_meta']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_pepper) by extension 'colcon_meta'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_pepper) by extensions ['ros']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_pepper) by extension 'ros'
+[0.936s] DEBUG:colcon.colcon_core.package_identification:Package 'src/move_pepper' with type 'ros.ament_python' and name 'move_pepper'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/pepper_autonomy) by extensions ['ignore', 'ignore_ament_install']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/pepper_autonomy) by extension 'ignore'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/pepper_autonomy) by extension 'ignore_ament_install'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/pepper_autonomy) by extensions ['colcon_pkg']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/pepper_autonomy) by extension 'colcon_pkg'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/pepper_autonomy) by extensions ['colcon_meta']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/pepper_autonomy) by extension 'colcon_meta'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/pepper_autonomy) by extensions ['ros']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/pepper_autonomy) by extension 'ros'
+[0.940s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pepper_autonomy' with type 'ros.ament_cmake' and name 'pepper_autonomy'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['ignore', 'ignore_ament_install']
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'ignore'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'ignore_ament_install'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['colcon_pkg']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'colcon_pkg'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['colcon_meta']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'colcon_meta'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['ros']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'ros'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['cmake', 'python']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'cmake'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'python'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['python_setup_py']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'python_setup_py'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extensions ['ignore', 'ignore_ament_install']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extension 'ignore'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extension 'ignore_ament_install'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extensions ['colcon_pkg']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extension 'colcon_pkg'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extensions ['colcon_meta']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extension 'colcon_meta'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extensions ['ros']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extension 'ros'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extensions ['cmake', 'python']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extension 'cmake'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extension 'python'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extensions ['python_setup_py']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extension 'python_setup_py'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_msgs) by extension 'ignore'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_msgs) by extension 'ignore_ament_install'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_msgs) by extensions ['colcon_pkg']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_msgs) by extension 'colcon_pkg'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_msgs) by extensions ['colcon_meta']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_msgs) by extension 'colcon_meta'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_msgs) by extensions ['ros']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_msgs) by extension 'ros'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_msgs) by extensions ['cmake', 'python']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_msgs) by extension 'cmake'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_msgs) by extension 'python'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_msgs) by extensions ['python_setup_py']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_msgs) by extension 'python_setup_py'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_simulations) by extension 'ignore'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_simulations) by extension 'ignore_ament_install'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_simulations) by extensions ['colcon_pkg']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_simulations) by extension 'colcon_pkg'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_simulations) by extensions ['colcon_meta']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_simulations) by extension 'colcon_meta'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_simulations) by extensions ['ros']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_simulations) by extension 'ros'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_simulations) by extensions ['cmake', 'python']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_simulations) by extension 'cmake'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_simulations) by extension 'python'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_simulations) by extensions ['python_setup_py']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_simulations) by extension 'python_setup_py'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extensions ['ignore', 'ignore_ament_install']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'ignore'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'ignore_ament_install'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extensions ['colcon_pkg']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'colcon_pkg'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extensions ['colcon_meta']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'colcon_meta'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extensions ['ros']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'ros'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extensions ['cmake', 'python']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'cmake'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'python'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extensions ['python_setup_py']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'python_setup_py'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/DynamixelSDK) by extensions ['ignore', 'ignore_ament_install']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/DynamixelSDK) by extension 'ignore'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/DynamixelSDK) by extension 'ignore_ament_install'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/DynamixelSDK) by extensions ['colcon_pkg']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/DynamixelSDK) by extension 'colcon_pkg'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/DynamixelSDK) by extensions ['colcon_meta']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/DynamixelSDK) by extension 'colcon_meta'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/DynamixelSDK) by extensions ['ros']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/DynamixelSDK) by extension 'ros'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/DynamixelSDK) by extensions ['cmake', 'python']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/DynamixelSDK) by extension 'cmake'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/DynamixelSDK) by extension 'python'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/DynamixelSDK) by extensions ['python_setup_py']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/DynamixelSDK) by extension 'python_setup_py'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/hls_lfcd_lds_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/hls_lfcd_lds_driver) by extension 'ignore'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/hls_lfcd_lds_driver) by extension 'ignore_ament_install'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/hls_lfcd_lds_driver) by extensions ['colcon_pkg']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/hls_lfcd_lds_driver) by extension 'colcon_pkg'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/hls_lfcd_lds_driver) by extensions ['colcon_meta']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/hls_lfcd_lds_driver) by extension 'colcon_meta'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/hls_lfcd_lds_driver) by extensions ['ros']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/hls_lfcd_lds_driver) by extension 'ros'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/hls_lfcd_lds_driver) by extensions ['cmake', 'python']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/hls_lfcd_lds_driver) by extension 'cmake'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/hls_lfcd_lds_driver) by extension 'python'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/hls_lfcd_lds_driver) by extensions ['python_setup_py']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils/hls_lfcd_lds_driver) by extension 'python_setup_py'
+[0.952s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.952s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.952s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.952s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.952s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.009s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.009s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.014s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/katie/turtlebot3_ws/install
+[1.020s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 416 installed packages in /opt/ros/humble
+[1.028s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.164s] Level 5:colcon.colcon_core.verb:set package 'book_database' build argument 'cmake_args' from command line to 'None'
+[1.164s] Level 5:colcon.colcon_core.verb:set package 'book_database' build argument 'cmake_target' from command line to 'None'
+[1.164s] Level 5:colcon.colcon_core.verb:set package 'book_database' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.164s] Level 5:colcon.colcon_core.verb:set package 'book_database' build argument 'cmake_clean_cache' from command line to 'False'
+[1.164s] Level 5:colcon.colcon_core.verb:set package 'book_database' build argument 'cmake_clean_first' from command line to 'False'
+[1.164s] Level 5:colcon.colcon_core.verb:set package 'book_database' build argument 'cmake_force_configure' from command line to 'False'
+[1.164s] Level 5:colcon.colcon_core.verb:set package 'book_database' build argument 'ament_cmake_args' from command line to 'None'
+[1.164s] Level 5:colcon.colcon_core.verb:set package 'book_database' build argument 'catkin_cmake_args' from command line to 'None'
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'book_database' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.165s] DEBUG:colcon.colcon_core.verb:Building package 'book_database' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/katie/turtlebot3_ws/build/book_database', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/katie/turtlebot3_ws/install/book_database', 'merge_install': False, 'path': '/home/katie/turtlebot3_ws/book_database', 'symlink_install': False, 'test_result_base': None}
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'move_pepper' build argument 'cmake_args' from command line to 'None'
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'move_pepper' build argument 'cmake_target' from command line to 'None'
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'move_pepper' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.166s] Level 5:colcon.colcon_core.verb:set package 'move_pepper' build argument 'cmake_clean_cache' from command line to 'False'
+[1.166s] Level 5:colcon.colcon_core.verb:set package 'move_pepper' build argument 'cmake_clean_first' from command line to 'False'
+[1.166s] Level 5:colcon.colcon_core.verb:set package 'move_pepper' build argument 'cmake_force_configure' from command line to 'False'
+[1.166s] Level 5:colcon.colcon_core.verb:set package 'move_pepper' build argument 'ament_cmake_args' from command line to 'None'
+[1.166s] Level 5:colcon.colcon_core.verb:set package 'move_pepper' build argument 'catkin_cmake_args' from command line to 'None'
+[1.166s] Level 5:colcon.colcon_core.verb:set package 'move_pepper' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.166s] DEBUG:colcon.colcon_core.verb:Building package 'move_pepper' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/katie/turtlebot3_ws/build/move_pepper', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/katie/turtlebot3_ws/install/move_pepper', 'merge_install': False, 'path': '/home/katie/turtlebot3_ws/src/move_pepper', 'symlink_install': False, 'test_result_base': None}
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'pepper_autonomy' build argument 'cmake_args' from command line to 'None'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'pepper_autonomy' build argument 'cmake_target' from command line to 'None'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'pepper_autonomy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'pepper_autonomy' build argument 'cmake_clean_cache' from command line to 'False'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'pepper_autonomy' build argument 'cmake_clean_first' from command line to 'False'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'pepper_autonomy' build argument 'cmake_force_configure' from command line to 'False'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'pepper_autonomy' build argument 'ament_cmake_args' from command line to 'None'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'pepper_autonomy' build argument 'catkin_cmake_args' from command line to 'None'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'pepper_autonomy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.167s] DEBUG:colcon.colcon_core.verb:Building package 'pepper_autonomy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/katie/turtlebot3_ws/build/pepper_autonomy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/katie/turtlebot3_ws/install/pepper_autonomy', 'merge_install': False, 'path': '/home/katie/turtlebot3_ws/src/pepper_autonomy', 'symlink_install': False, 'test_result_base': None}
+[1.167s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.169s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.169s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/katie/turtlebot3_ws/book_database' with build type 'ament_cmake'
+[1.170s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/katie/turtlebot3_ws/book_database'
+[1.178s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.178s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.178s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.188s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/katie/turtlebot3_ws/src/move_pepper' with build type 'ament_python'
+[1.189s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_pepper', 'ament_prefix_path')
+[1.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/katie/turtlebot3_ws/install/move_pepper/share/move_pepper/hook/ament_prefix_path.ps1'
+[1.191s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/katie/turtlebot3_ws/install/move_pepper/share/move_pepper/hook/ament_prefix_path.dsv'
+[1.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/katie/turtlebot3_ws/install/move_pepper/share/move_pepper/hook/ament_prefix_path.sh'
+[1.194s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.194s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.203s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/katie/turtlebot3_ws/src/pepper_autonomy' with build type 'ament_cmake'
+[1.204s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/katie/turtlebot3_ws/src/pepper_autonomy'
+[1.204s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.205s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/katie/turtlebot3_ws/build/book_database': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble /usr/bin/cmake /home/katie/turtlebot3_ws/book_database -DCMAKE_INSTALL_PREFIX=/home/katie/turtlebot3_ws/install/book_database
+[2.114s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/katie/turtlebot3_ws/src/move_pepper'
+[2.115s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.116s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.138s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/katie/turtlebot3_ws/build/pepper_autonomy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble /usr/bin/cmake --build /home/katie/turtlebot3_ws/build/pepper_autonomy -- -j8 -l8
+[2.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/katie/turtlebot3_ws/build/pepper_autonomy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble /usr/bin/cmake --build /home/katie/turtlebot3_ws/build/pepper_autonomy -- -j8 -l8
+[2.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/katie/turtlebot3_ws/build/pepper_autonomy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble /usr/bin/cmake --install /home/katie/turtlebot3_ws/build/pepper_autonomy
+[2.436s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pepper_autonomy)
+[2.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/katie/turtlebot3_ws/build/pepper_autonomy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble /usr/bin/cmake --install /home/katie/turtlebot3_ws/build/pepper_autonomy
+[2.447s] Level 1:colcon.colcon_core.environment:checking '/home/katie/turtlebot3_ws/install/pepper_autonomy' for CMake module files
+[2.449s] Level 1:colcon.colcon_core.environment:checking '/home/katie/turtlebot3_ws/install/pepper_autonomy' for CMake config files
+[2.450s] Level 1:colcon.colcon_core.shell:create_environment_hook('pepper_autonomy', 'cmake_prefix_path')
+[2.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/hook/cmake_prefix_path.ps1'
+[2.458s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/hook/cmake_prefix_path.dsv'
+[2.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/hook/cmake_prefix_path.sh'
+[2.474s] Level 1:colcon.colcon_core.environment:checking '/home/katie/turtlebot3_ws/install/pepper_autonomy/lib'
+[2.475s] Level 1:colcon.colcon_core.environment:checking '/home/katie/turtlebot3_ws/install/pepper_autonomy/bin'
+[2.475s] Level 1:colcon.colcon_core.environment:checking '/home/katie/turtlebot3_ws/install/pepper_autonomy/lib/pkgconfig/pepper_autonomy.pc'
+[2.476s] Level 1:colcon.colcon_core.environment:checking '/home/katie/turtlebot3_ws/install/pepper_autonomy/lib/python3.10/site-packages'
+[2.476s] Level 1:colcon.colcon_core.environment:checking '/home/katie/turtlebot3_ws/install/pepper_autonomy/bin'
+[2.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/package.ps1'
+[2.482s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/package.dsv'
+[2.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/package.sh'
+[2.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/package.bash'
+[2.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/package.zsh'
+[2.491s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/katie/turtlebot3_ws/install/pepper_autonomy/share/colcon-core/packages/pepper_autonomy)
+[2.492s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pepper_autonomy)
+[2.495s] Level 1:colcon.colcon_core.environment:checking '/home/katie/turtlebot3_ws/install/pepper_autonomy' for CMake module files
+[2.496s] Level 1:colcon.colcon_core.environment:checking '/home/katie/turtlebot3_ws/install/pepper_autonomy' for CMake config files
+[2.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('pepper_autonomy', 'cmake_prefix_path')
+[2.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/hook/cmake_prefix_path.ps1'
+[2.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/hook/cmake_prefix_path.dsv'
+[2.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/hook/cmake_prefix_path.sh'
+[2.507s] Level 1:colcon.colcon_core.environment:checking '/home/katie/turtlebot3_ws/install/pepper_autonomy/lib'
+[2.507s] Level 1:colcon.colcon_core.environment:checking '/home/katie/turtlebot3_ws/install/pepper_autonomy/bin'
+[2.507s] Level 1:colcon.colcon_core.environment:checking '/home/katie/turtlebot3_ws/install/pepper_autonomy/lib/pkgconfig/pepper_autonomy.pc'
+[2.508s] Level 1:colcon.colcon_core.environment:checking '/home/katie/turtlebot3_ws/install/pepper_autonomy/lib/python3.10/site-packages'
+[2.509s] Level 1:colcon.colcon_core.environment:checking '/home/katie/turtlebot3_ws/install/pepper_autonomy/bin'
+[2.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/package.ps1'
+[2.512s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/package.dsv'
+[2.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/package.sh'
+[2.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/package.bash'
+[2.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/katie/turtlebot3_ws/install/pepper_autonomy/share/pepper_autonomy/package.zsh'
+[2.518s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/katie/turtlebot3_ws/install/pepper_autonomy/share/colcon-core/packages/pepper_autonomy)
+[3.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/katie/turtlebot3_ws/src/move_pepper': PYTHONPATH=/home/katie/turtlebot3_ws/build/move_pepper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/katie/turtlebot3_ws/install/move_pepper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/move_pepper build --build-base /home/katie/turtlebot3_ws/build/move_pepper/build install --record /home/katie/turtlebot3_ws/build/move_pepper/install.log --single-version-externally-managed install_data
+[4.277s] Level 1:colcon.colcon_core.environment:checking '/home/katie/turtlebot3_ws/install/move_pepper' for CMake module files
+[4.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/katie/turtlebot3_ws/src/move_pepper' returned '0': PYTHONPATH=/home/katie/turtlebot3_ws/build/move_pepper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/katie/turtlebot3_ws/install/move_pepper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/move_pepper build --build-base /home/katie/turtlebot3_ws/build/move_pepper/build install --record /home/katie/turtlebot3_ws/build/move_pepper/install.log --single-version-externally-managed install_data
+[4.280s] Level 1:colcon.colcon_core.environment:checking '/home/katie/turtlebot3_ws/install/move_pepper' for CMake config files
+[4.281s] Level 1:colcon.colcon_core.environment:checking '/home/katie/turtlebot3_ws/install/move_pepper/lib'
+[4.281s] Level 1:colcon.colcon_core.environment:checking '/home/katie/turtlebot3_ws/install/move_pepper/bin'
+[4.281s] Level 1:colcon.colcon_core.environment:checking '/home/katie/turtlebot3_ws/install/move_pepper/lib/pkgconfig/move_pepper.pc'
+[4.282s] Level 1:colcon.colcon_core.environment:checking '/home/katie/turtlebot3_ws/install/move_pepper/lib/python3.10/site-packages'
+[4.282s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_pepper', 'pythonpath')
+[4.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/katie/turtlebot3_ws/install/move_pepper/share/move_pepper/hook/pythonpath.ps1'
+[4.285s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/katie/turtlebot3_ws/install/move_pepper/share/move_pepper/hook/pythonpath.dsv'
+[4.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/katie/turtlebot3_ws/install/move_pepper/share/move_pepper/hook/pythonpath.sh'
+[4.288s] Level 1:colcon.colcon_core.environment:checking '/home/katie/turtlebot3_ws/install/move_pepper/bin'
+[4.289s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(move_pepper)
+[4.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/katie/turtlebot3_ws/install/move_pepper/share/move_pepper/package.ps1'
+[4.292s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/katie/turtlebot3_ws/install/move_pepper/share/move_pepper/package.dsv'
+[4.293s] INFO:colcon.colcon_core.shell:Creating package script '/home/katie/turtlebot3_ws/install/move_pepper/share/move_pepper/package.sh'
+[4.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/katie/turtlebot3_ws/install/move_pepper/share/move_pepper/package.bash'
+[4.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/katie/turtlebot3_ws/install/move_pepper/share/move_pepper/package.zsh'
+[4.298s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/katie/turtlebot3_ws/install/move_pepper/share/colcon-core/packages/move_pepper)
+[5.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/katie/turtlebot3_ws/build/book_database' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble /usr/bin/cmake /home/katie/turtlebot3_ws/book_database -DCMAKE_INSTALL_PREFIX=/home/katie/turtlebot3_ws/install/book_database
+[5.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/katie/turtlebot3_ws/build/book_database': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble /usr/bin/cmake --build /home/katie/turtlebot3_ws/build/book_database -- -j8 -l8
+[16.154s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/katie/turtlebot3_ws/build/book_database' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble /usr/bin/cmake --build /home/katie/turtlebot3_ws/build/book_database -- -j8 -l8
+[16.159s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/katie/turtlebot3_ws/build/book_database': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble /usr/bin/cmake --install /home/katie/turtlebot3_ws/build/book_database
+[16.198s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(book_database)
+[16.199s] Level 1:colcon.colcon_core.environment:checking '/home/katie/turtlebot3_ws/install/book_database' for CMake module files
+[16.201s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/katie/turtlebot3_ws/build/book_database' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katie/turtlebot3_ws/install/move_pepper:/opt/ros/humble /usr/bin/cmake --install /home/katie/turtlebot3_ws/build/book_database
+[16.202s] Level 1:colcon.colcon_core.environment:checking '/home/katie/turtlebot3_ws/install/book_database' for CMake config files
+[16.202s] Level 1:colcon.colcon_core.shell:create_environment_hook('book_database', 'cmake_prefix_path')
+[16.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/katie/turtlebot3_ws/install/book_database/share/book_database/hook/cmake_prefix_path.ps1'
+[16.204s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/katie/turtlebot3_ws/install/book_database/share/book_database/hook/cmake_prefix_path.dsv'
+[16.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/katie/turtlebot3_ws/install/book_database/share/book_database/hook/cmake_prefix_path.sh'
+[16.207s] Level 1:colcon.colcon_core.environment:checking '/home/katie/turtlebot3_ws/install/book_database/lib'
+[16.207s] Level 1:colcon.colcon_core.environment:checking '/home/katie/turtlebot3_ws/install/book_database/bin'
+[16.207s] Level 1:colcon.colcon_core.environment:checking '/home/katie/turtlebot3_ws/install/book_database/lib/pkgconfig/book_database.pc'
+[16.208s] Level 1:colcon.colcon_core.environment:checking '/home/katie/turtlebot3_ws/install/book_database/lib/python3.10/site-packages'
+[16.208s] Level 1:colcon.colcon_core.environment:checking '/home/katie/turtlebot3_ws/install/book_database/bin'
+[16.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/katie/turtlebot3_ws/install/book_database/share/book_database/package.ps1'
+[16.210s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/katie/turtlebot3_ws/install/book_database/share/book_database/package.dsv'
+[16.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/katie/turtlebot3_ws/install/book_database/share/book_database/package.sh'
+[16.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/katie/turtlebot3_ws/install/book_database/share/book_database/package.bash'
+[16.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/katie/turtlebot3_ws/install/book_database/share/book_database/package.zsh'
+[16.214s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/katie/turtlebot3_ws/install/book_database/share/colcon-core/packages/book_database)
+[16.215s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(book_database)
+[16.216s] Level 1:colcon.colcon_core.environment:checking '/home/katie/turtlebot3_ws/install/book_database' for CMake module files
+[16.217s] Level 1:colcon.colcon_core.environment:checking '/home/katie/turtlebot3_ws/install/book_database' for CMake config files
+[16.217s] Level 1:colcon.colcon_core.shell:create_environment_hook('book_database', 'cmake_prefix_path')
+[16.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/katie/turtlebot3_ws/install/book_database/share/book_database/hook/cmake_prefix_path.ps1'
+[16.218s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/katie/turtlebot3_ws/install/book_database/share/book_database/hook/cmake_prefix_path.dsv'
+[16.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/katie/turtlebot3_ws/install/book_database/share/book_database/hook/cmake_prefix_path.sh'
+[16.221s] Level 1:colcon.colcon_core.environment:checking '/home/katie/turtlebot3_ws/install/book_database/lib'
+[16.221s] Level 1:colcon.colcon_core.environment:checking '/home/katie/turtlebot3_ws/install/book_database/bin'
+[16.222s] Level 1:colcon.colcon_core.environment:checking '/home/katie/turtlebot3_ws/install/book_database/lib/pkgconfig/book_database.pc'
+[16.222s] Level 1:colcon.colcon_core.environment:checking '/home/katie/turtlebot3_ws/install/book_database/lib/python3.10/site-packages'
+[16.223s] Level 1:colcon.colcon_core.environment:checking '/home/katie/turtlebot3_ws/install/book_database/bin'
+[16.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/katie/turtlebot3_ws/install/book_database/share/book_database/package.ps1'
+[16.226s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/katie/turtlebot3_ws/install/book_database/share/book_database/package.dsv'
+[16.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/katie/turtlebot3_ws/install/book_database/share/book_database/package.sh'
+[16.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/katie/turtlebot3_ws/install/book_database/share/book_database/package.bash'
+[16.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/katie/turtlebot3_ws/install/book_database/share/book_database/package.zsh'
+[16.231s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/katie/turtlebot3_ws/install/book_database/share/colcon-core/packages/book_database)
+[16.232s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.233s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.233s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.233s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.251s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.252s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.252s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.287s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.288s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/katie/turtlebot3_ws/install/local_setup.ps1'
+[16.292s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/katie/turtlebot3_ws/install/_local_setup_util_ps1.py'
+[16.299s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/katie/turtlebot3_ws/install/setup.ps1'
+[16.303s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/katie/turtlebot3_ws/install/local_setup.sh'
+[16.306s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/katie/turtlebot3_ws/install/_local_setup_util_sh.py'
+[16.308s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/katie/turtlebot3_ws/install/setup.sh'
+[16.311s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/katie/turtlebot3_ws/install/local_setup.bash'
+[16.313s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/katie/turtlebot3_ws/install/setup.bash'
+[16.317s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/katie/turtlebot3_ws/install/local_setup.zsh'
+[16.318s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/katie/turtlebot3_ws/install/setup.zsh'
