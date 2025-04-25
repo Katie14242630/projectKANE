@@ -235,7 +235,7 @@ private:
                 std::cin.ignore();  // Clear the buffer after the response
     
                 if (response == 'Y' || response == 'y') {
-                    // Send the accept response with the artwork title (you need to replace 'Artwork Title' with actual artwork title)
+                    // Send the accept response with the artwork title
                     std_msgs::msg::String info_msg;
                     info_msg.data = "accept:" + title; 
                     info_response_publisher_->publish(info_msg);
@@ -257,49 +257,55 @@ private:
             // GUIDE MODE: proceed with the original logic
             // ---------------------------------------------
             print_available_books();
-
             while (rclcpp::ok()) {
-                std::string input;
-                std::cout << "Hello Art Enthusiast =)\n"
-                          << "Enter the title of the artwork you want to see: ";
-                std::getline(std::cin, input);
-
-                // If the input is not empty, process the borrowing
-                if (!input.empty()) {
-                    // Create and publish the message
-                    auto msg = std_msgs::msg::String();
-                    msg.data = input;
-
-                    // Publish to the borrow topic
-                    borrow_publisher_->publish(msg);
-
-                    // Trigger the borrowing callback directly for immediate response
-                    borrow_book_callback(std::make_shared<std_msgs::msg::String>(msg));
-
-                    // Ask if the user wants to see another artwork
-                    char another;
-                    std::cout << "Do you want to see another artwork? (Y/N): ";
-                    std::cin >> another;
-                    std::cin.ignore(); // Ignore the newline character left in the buffer
-
-                    if (another != 'Y' && another != 'y') {
-                        std::cout << "Exiting the art seeing process." << std::endl;
-                        break;  // Exit the loop
-                    }
-
-                    // If 'Y' is selected, clear the screen for a better UX
-                    std::cout << "\033[2J\033[1;1H"; // ANSI escape code to clear the console
-                    print_available_books();
+                std::cout << "Hello Art Enthist =)\n"
+                          << "Enter title(s) (comma-separated): ";
+                std::string line;
+                std::getline(std::cin, line);
+                if (line.empty()) {
+                    std::cout << "No input. Exiting guide mode.\n";
+                    break;
                 }
+ 
+                // split & trim
+                std::vector<std::string> titles;
+                std::stringstream ss(line);
+                std::string item;
+                while (std::getline(ss, item, ',')) {
+                    auto start = item.find_first_not_of(" \t");
+                    auto end   = item.find_last_not_of(" \t");
+                    if (start != std::string::npos && end != std::string::npos) {
+                        titles.push_back(item.substr(start, end - start + 1));
+                    }
+                }
+ 
+                // process
+                for (const auto &t : titles) {
+                    auto msg = std_msgs::msg::String();
+                    msg.data = t;
+                    borrow_publisher_->publish(msg);
+                    borrow_book_callback(std::make_shared<std_msgs::msg::String>(msg));
+                }
+ 
+                print_available_books();
+                char again;
+                std::cout << "See more? (Y/N): ";
+                std::cin >> again;
+                std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+                if (again!='Y' && again!='y') {
+                    std::cout << "Exiting guide mode.\n";
+                    break;
+                }
+                std::cout << "\033[2J\033[1;1H";  // clear
+                print_available_books();
             }
         }
         else {
-            // Invalid choice
-            std::cout << "Invalid choice. Exiting." << std::endl;
+            std::cout << "Invalid choice. Exiting.\n";
             return;
         }
     }
-};
+};  // ← end of class
 
 int main(int argc, char * argv[]) {
     rclcpp::init(argc, argv);
